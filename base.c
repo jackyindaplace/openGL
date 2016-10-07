@@ -135,34 +135,11 @@ void Menu(int Value) {
 int main(int argc, char **argv) {
 	int continuer = 1;
 	SDL_Init(SDL_INIT_VIDEO);
-	SDL_SetVideoMode(640, 480, 32, SDL_OPENGL);
 	SDL_WM_SetCaption("OpenGL",NULL);
+	SDL_SetVideoMode(640, 480, 32, SDL_OPENGL);
 
-	glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
-	glutInitWindowSize(WindowWidth, WindowHeight);
-	glutCreateWindow("OpenGL & Glut: Programme de base");
-	glutDisplayFunc(Drawscene);
-	glutReshapeFunc(Resize);
-	glutKeyboardFunc(Keyfunc);
-	glutKeyboardUpFunc(KeyfuncUp);
-	glutMouseFunc(Mousefunc);
-	glutWarpPointer(WindowWidth/2, WindowHeight/2);
-	glutMotionFunc(Mousemove);
-	glutPassiveMotionFunc(PassiveMove);
-	Initialize(1200, 700);
 
-	glutCreateMenu(Menu);
-	//glutAddMenuEntry("--------", 0);
-	glutAddMenuEntry("Vue de dessus", 1);
-	glutAddMenuEntry("Vue soucoupe", 2);
-	glutAddMenuEntry("Vue dessus", 3);
-	glutAddMenuEntry("Vue de face", 4);
-	glutAddMenuEntry("Vue de gauche", 5);
-	glutAddMenuEntry("Vue de droite", 6);
-	glutAddMenuEntry("Quit", 666);
-	glutAttachMenu(GLUT_RIGHT_BUTTON);
-	glutIdleFunc(Drawscene);
+
 
 // void update(){
 //
@@ -173,9 +150,7 @@ int main(int argc, char **argv) {
 //   update(Drawscene);
 
 	SDL_Event event;
-	SDL_WM_SetCaption("SDL_Mixer", NULL);
-	glFlush();
-	    SDL_GL_SwapBuffers();
+
 	if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024)
 			== -1) //Initialisation de l'API Mixer
 			{
@@ -184,9 +159,10 @@ int main(int argc, char **argv) {
 	Mix_Music *musique; //Création du pointeur de type Mix_Music
 	musique = Mix_LoadMUS("Sound/Sugar feat. Milie oops (do di do di dam).mp3"); //Chargement de la musique
 	Mix_PlayMusic(musique, -1); //Jouer infiniment la musique-----------
+
 	while (continuer) {
-		glutMainLoop();
 		SDL_WaitEvent(&event);
+
 		switch (event.type) {
 		case SDL_QUIT:
 			continuer = 0;
@@ -197,6 +173,46 @@ int main(int argc, char **argv) {
 
 			break;
 		}
+
+		glClear(GL_COLOR_BUFFER_BIT);
+
+		        glBegin(GL_TRIANGLES);
+		            glColor3ub(255,0,0);    glVertex2d(-0.75,-0.75);
+		            glColor3ub(0,255,0);    glVertex2d(0,0.75);
+		            glColor3ub(0,0,255);    glVertex2d(0.75,-0.75);
+		        glEnd();
+
+
+//		glutInit(&argc, argv);
+//			glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
+//			glutInitWindowSize(WindowWidth, WindowHeight);
+//			glutCreateWindow("OpenGL & Glut: Programme de base");
+//			glutDisplayFunc(Drawscene);
+//			glutReshapeFunc(Resize);
+//			glutKeyboardFunc(Keyfunc);
+//			glutKeyboardUpFunc(KeyfuncUp);
+//			glutMouseFunc(Mousefunc);
+//			glutWarpPointer(WindowWidth/2, WindowHeight/2);
+//			glutMotionFunc(Mousemove);
+//			glutPassiveMotionFunc(PassiveMove);
+//			Initialize(1200, 700);
+//
+//			glutCreateMenu(Menu);
+//			//glutAddMenuEntry("--------", 0);
+//			glutAddMenuEntry("Vue de dessus", 1);
+//			glutAddMenuEntry("Vue soucoupe", 2);
+//			glutAddMenuEntry("Vue dessus", 3);
+//			glutAddMenuEntry("Vue de face", 4);
+//			glutAddMenuEntry("Vue de gauche", 5);
+//			glutAddMenuEntry("Vue de droite", 6);
+//			glutAddMenuEntry("Quit", 666);
+//			glutAttachMenu(GLUT_RIGHT_BUTTON);
+//			glutIdleFunc(Drawscene);
+//
+//		glutMainLoop();
+
+		glFlush();
+			    SDL_GL_SwapBuffers();
 	}
 
 	//En mode non SDL
