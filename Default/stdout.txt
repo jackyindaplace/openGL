@@ -1,0 +1,5307 @@
+c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 0.000000
+ teta 0.000000
+ XValue 265
+ YValue 324c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333333
+ teta 28.000000
+ XValue 237
+ YValue 331c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333333
+ teta 28.000000
+ XValue 237
+ YValue 331c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333333
+ teta 28.000000
+ XValue 237
+ YValue 331c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333333
+ teta 28.000000
+ XValue 237
+ YValue 331c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333333
+ teta 28.000000
+ XValue 237
+ YValue 331c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333333
+ teta 28.000000
+ XValue 237
+ YValue 331c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333333
+ teta 28.000000
+ XValue 237
+ YValue 331c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.666667
+ teta 35.000000
+ XValue 230
+ YValue 332c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.666667
+ teta 35.000000
+ XValue 230
+ YValue 332c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 0.000000
+ teta 41.000000
+ XValue 224
+ YValue 324c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 0.000000
+ teta 41.000000
+ XValue 224
+ YValue 324c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 12.333334
+ teta 42.000000
+ XValue 223
+ YValue 287c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 12.333334
+ teta 42.000000
+ XValue 223
+ YValue 287c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 47.000000
+ teta 8.000000
+ XValue 257
+ YValue 183c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 47.000000
+ teta 8.000000
+ XValue 257
+ YValue 183c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -32.000000
+ XValue 297
+ YValue 113c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -32.000000
+ XValue 297
+ YValue 113c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -47.000000
+ XValue 312
+ YValue 88c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -47.000000
+ XValue 312
+ YValue 88c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -51.000000
+ XValue 316
+ YValue 88c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -51.000000
+ XValue 316
+ YValue 88c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 51.666668
+ teta -48.000000
+ XValue 313
+ YValue 98c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 51.666668
+ teta -48.000000
+ XValue 313
+ YValue 98c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 51.666668
+ teta -48.000000
+ XValue 313
+ YValue 98c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 51.666668
+ teta -48.000000
+ XValue 313
+ YValue 98c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 51.666668
+ teta -48.000000
+ XValue 313
+ YValue 98c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 51.666668
+ teta -48.000000
+ XValue 313
+ YValue 98c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 51.666668
+ teta -47.000000
+ XValue 312
+ YValue 98c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 51.666668
+ teta -47.000000
+ XValue 312
+ YValue 98c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 54.000000
+ teta -46.000000
+ XValue 311
+ YValue 91c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 54.000000
+ teta -46.000000
+ XValue 311
+ YValue 91c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -55.000000
+ XValue 320
+ YValue 52c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -55.000000
+ XValue 320
+ YValue 52c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -63.000000
+ XValue 328
+ YValue 38c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -63.000000
+ XValue 328
+ YValue 38c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -66.000000
+ XValue 331
+ YValue 35c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -66.000000
+ XValue 331
+ YValue 35c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -71.000000
+ XValue 336
+ YValue 26c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -71.000000
+ XValue 336
+ YValue 26c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -76.000000
+ XValue 341
+ YValue 15c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -76.000000
+ XValue 341
+ YValue 15c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -80.000000
+ XValue 345
+ YValue 2c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 53.000000
+ teta -93.000000
+ XValue 358
+ YValue 8c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 53.000000
+ teta -93.000000
+ XValue 358
+ YValue 8c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 10.666667
+ teta -145.000000
+ XValue 410
+ YValue 135c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 10.666667
+ teta -145.000000
+ XValue 410
+ YValue 135c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -234.000000
+ XValue 499
+ YValue 366c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -234.000000
+ XValue 499
+ YValue 366c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -279.000000
+ XValue 544
+ YValue 485c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -279.000000
+ XValue 544
+ YValue 485c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -284.000000
+ XValue 549
+ YValue 509c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -284.000000
+ XValue 549
+ YValue 509c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -284.000000
+ XValue 549
+ YValue 510c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -284.000000
+ XValue 549
+ YValue 510c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -284.000000
+ XValue 549
+ YValue 511c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -284.000000
+ XValue 549
+ YValue 511c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -284.000000
+ XValue 549
+ YValue 512c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -284.000000
+ XValue 549
+ YValue 512c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -284.000000
+ XValue 549
+ YValue 512c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -40.000000
+ teta -284.000000
+ XValue 549
+ YValue 512c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -39.666668
+ teta -284.000000
+ XValue 549
+ YValue 511c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -39.666668
+ teta -284.000000
+ XValue 549
+ YValue 511c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -35.666668
+ teta -286.000000
+ XValue 551
+ YValue 499c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -35.666668
+ teta -286.000000
+ XValue 551
+ YValue 499c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -24.666668
+ teta -306.000000
+ XValue 571
+ YValue 466c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -24.666668
+ teta -306.000000
+ XValue 571
+ YValue 466c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -12.000001
+ teta -322.000000
+ XValue 587
+ YValue 428c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -12.000001
+ teta -322.000000
+ XValue 587
+ YValue 428c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.666668
+ teta -332.000000
+ XValue 597
+ YValue 400c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.666668
+ teta -332.000000
+ XValue 597
+ YValue 400c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333334
+ teta -332.000000
+ XValue 597
+ YValue 399c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333334
+ teta -332.000000
+ XValue 597
+ YValue 399c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333334
+ teta -332.000000
+ XValue 597
+ YValue 399c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.000001
+ teta -332.000000
+ XValue 597
+ YValue 398c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.000001
+ teta -332.000000
+ XValue 597
+ YValue 398c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.000001
+ teta -332.000000
+ XValue 597
+ YValue 398c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.000001
+ teta -332.000000
+ XValue 597
+ YValue 398c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.000001
+ teta -332.000000
+ XValue 597
+ YValue 398c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666668
+ teta -332.000000
+ XValue 597
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666668
+ teta -332.000000
+ XValue 597
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666668
+ teta -332.000000
+ XValue 597
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666668
+ teta -332.000000
+ XValue 597
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.000001
+ teta -333.000000
+ XValue 598
+ YValue 398c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.000001
+ teta -333.000000
+ XValue 598
+ YValue 398c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666668
+ teta -337.000000
+ XValue 602
+ YValue 409c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666668
+ teta -337.000000
+ XValue 602
+ YValue 409c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000001
+ teta -338.000000
+ XValue 603
+ YValue 413c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000001
+ teta -338.000000
+ XValue 603
+ YValue 413c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.666668
+ teta -340.000000
+ XValue 605
+ YValue 415c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.666668
+ teta -340.000000
+ XValue 605
+ YValue 415c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.333334
+ teta -345.000000
+ XValue 610
+ YValue 414c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.333334
+ teta -345.000000
+ XValue 610
+ YValue 414c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.000001
+ teta -381.000000
+ XValue 646
+ YValue 407c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.000001
+ teta -381.000000
+ XValue 646
+ YValue 407c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -421.000000
+ XValue 686
+ YValue 404c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -421.000000
+ XValue 686
+ YValue 404c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -427.000000
+ XValue 692
+ YValue 404c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -427.000000
+ XValue 692
+ YValue 404c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -427.000000
+ XValue 692
+ YValue 404c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -427.000000
+ XValue 692
+ YValue 404c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -427.000000
+ XValue 692
+ YValue 404c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -427.000000
+ XValue 692
+ YValue 404c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -427.000000
+ XValue 692
+ YValue 404c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -427.000000
+ XValue 692
+ YValue 404c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.666668
+ teta -427.000000
+ XValue 692
+ YValue 403c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.333334
+ teta -425.000000
+ XValue 690
+ YValue 405c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.333334
+ teta -425.000000
+ XValue 690
+ YValue 405c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.333334
+ teta -417.000000
+ XValue 682
+ YValue 408c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.333334
+ teta -417.000000
+ XValue 682
+ YValue 408c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000001
+ teta -413.000000
+ XValue 678
+ YValue 410c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000001
+ teta -413.000000
+ XValue 678
+ YValue 410c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -398.000000
+ XValue 663
+ YValue 411c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -398.000000
+ XValue 663
+ YValue 411c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000001
+ teta -390.000000
+ XValue 655
+ YValue 410c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000001
+ teta -390.000000
+ XValue 655
+ YValue 410c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000001
+ teta -388.000000
+ XValue 653
+ YValue 410c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000001
+ teta -388.000000
+ XValue 653
+ YValue 410c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000001
+ teta -386.000000
+ XValue 651
+ YValue 410c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000001
+ teta -386.000000
+ XValue 651
+ YValue 410c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000001
+ teta -385.000000
+ XValue 650
+ YValue 410c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000001
+ teta -385.000000
+ XValue 650
+ YValue 410c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000001
+ teta -385.000000
+ XValue 650
+ YValue 410c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -384.000000
+ XValue 649
+ YValue 409c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -384.000000
+ XValue 649
+ YValue 409c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -381.000000
+ XValue 646
+ YValue 409c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -381.000000
+ XValue 646
+ YValue 409c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.333334
+ teta -380.000000
+ XValue 645
+ YValue 408c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.333334
+ teta -380.000000
+ XValue 645
+ YValue 408c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.333334
+ teta -380.000000
+ XValue 645
+ YValue 408c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.333334
+ teta -379.000000
+ XValue 644
+ YValue 408c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.333334
+ teta -379.000000
+ XValue 644
+ YValue 408c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.666667
+ teta -376.000000
+ XValue 641
+ YValue 406c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.666667
+ teta -376.000000
+ XValue 641
+ YValue 406c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.666667
+ teta -354.000000
+ XValue 619
+ YValue 400c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.666667
+ teta -354.000000
+ XValue 619
+ YValue 400c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -328.000000
+ XValue 593
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -328.000000
+ XValue 593
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mortc est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mortc est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mortc est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mortc est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mortc est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mortc est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -1.666667
+ teta -325.000000
+ XValue 590
+ YValue 397c est mortc est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333334
+ teta -326.000000
+ XValue 591
+ YValue 399c est mortc est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -2.333334
+ teta -326.000000
+ XValue 591
+ YValue 399c est mort
+ xbonhomme 0.000000
+ ybonhomme 0.000000
+ zbonhomme 1.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.333334
+ teta -330.000000
+ XValue 595
+ YValue 402
+ xbonhomme 0.259808
+ ybonhomme 0.150000
+ zbonhomme 1.500000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -3.333334
+ teta -330.000000
+ XValue 595
+ YValue 402
+ xbonhomme 0.539882
+ ybonhomme 0.257510
+ zbonhomme 1.833333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -339.000000
+ XValue 604
+ YValue 404
+ xbonhomme 0.819956
+ ybonhomme 0.365021
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.000001
+ teta -339.000000
+ XValue 604
+ YValue 404
+ xbonhomme 1.115398
+ ybonhomme 0.417115
+ zbonhomme 2.283334
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.666667
+ teta -350.000000
+ XValue 615
+ YValue 406
+ xbonhomme 1.410841
+ ybonhomme 0.469209
+ zbonhomme 2.450000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -4.666667
+ teta -350.000000
+ XValue 615
+ YValue 406
+ xbonhomme 1.710658
+ ybonhomme 0.479679
+ zbonhomme 2.592857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.333334
+ teta -358.000000
+ XValue 623
+ YValue 408
+ xbonhomme 2.010475
+ ybonhomme 0.490149
+ zbonhomme 2.717857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.333334
+ teta -358.000000
+ XValue 623
+ YValue 408
+ xbonhomme 2.310475
+ ybonhomme 0.490149
+ zbonhomme 2.828969
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000000
+ teta -360.000000
+ XValue 625
+ YValue 410
+ xbonhomme 2.610475
+ ybonhomme 0.490149
+ zbonhomme 2.928968
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.000000
+ teta -360.000000
+ XValue 625
+ YValue 410
+ xbonhomme 2.910292
+ ybonhomme 0.479679
+ zbonhomme 3.019877
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 3.210110
+ ybonhomme 0.469209
+ zbonhomme 3.103211
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 3.509927
+ ybonhomme 0.458739
+ zbonhomme 3.180134
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 3.809744
+ ybonhomme 0.448269
+ zbonhomme 3.251562
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 4.109561
+ ybonhomme 0.437799
+ zbonhomme 3.180134
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 4.409379
+ ybonhomme 0.427329
+ zbonhomme 3.103211
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 4.709196
+ ybonhomme 0.416860
+ zbonhomme 3.019877
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 5.009013
+ ybonhomme 0.406390
+ zbonhomme 2.928968
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 5.308830
+ ybonhomme 0.395920
+ zbonhomme 2.828969
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 5.608647
+ ybonhomme 0.385450
+ zbonhomme 2.717857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 5.908464
+ ybonhomme 0.374980
+ zbonhomme 2.592857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 6.208281
+ ybonhomme 0.364510
+ zbonhomme 2.450000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 6.508098
+ ybonhomme 0.354040
+ zbonhomme 2.283334
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 6.807915
+ ybonhomme 0.343570
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -362.000000
+ XValue 627
+ YValue 411
+ xbonhomme 7.107915
+ ybonhomme 0.343570
+ zbonhomme 1.833333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -360.000000
+ XValue 625
+ YValue 411
+ xbonhomme 7.407916
+ ybonhomme 0.343570
+ zbonhomme 1.500000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -360.000000
+ XValue 625
+ YValue 411
+ xbonhomme 7.707733
+ ybonhomme 0.354040
+ zbonhomme 1.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -358.000000
+ XValue 623
+ YValue 413
+ xbonhomme 8.007550
+ ybonhomme 0.364510
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -358.000000
+ XValue 623
+ YValue 413c est mort
+ xbonhomme 8.307139
+ ybonhomme 0.380210
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413c est mort
+ xbonhomme 8.606729
+ ybonhomme 0.395911
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413c est mort
+ xbonhomme 8.906318
+ ybonhomme 0.411612
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413c est mort
+ xbonhomme 9.205907
+ ybonhomme 0.427312
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413c est mort
+ xbonhomme 9.505496
+ ybonhomme 0.443013
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 9.805085
+ ybonhomme 0.458714
+ zbonhomme 1.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 10.104674
+ ybonhomme 0.474415
+ zbonhomme 1.500000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 10.404263
+ ybonhomme 0.490115
+ zbonhomme 1.833333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 10.703853
+ ybonhomme 0.505816
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 11.003442
+ ybonhomme 0.521517
+ zbonhomme 2.283334
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 11.303031
+ ybonhomme 0.537218
+ zbonhomme 2.450000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 11.602620
+ ybonhomme 0.552918
+ zbonhomme 2.592857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 11.902209
+ ybonhomme 0.568619
+ zbonhomme 2.717857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 12.201798
+ ybonhomme 0.584320
+ zbonhomme 2.828969
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 12.501388
+ ybonhomme 0.600021
+ zbonhomme 2.928968
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 12.800977
+ ybonhomme 0.615721
+ zbonhomme 3.019877
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 13.100566
+ ybonhomme 0.631422
+ zbonhomme 3.103211
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 13.400155
+ ybonhomme 0.647123
+ zbonhomme 3.180134
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 13.699744
+ ybonhomme 0.662824
+ zbonhomme 3.251562
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 13.999333
+ ybonhomme 0.678524
+ zbonhomme 3.180134
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 14.298923
+ ybonhomme 0.694225
+ zbonhomme 3.103211
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 14.598512
+ ybonhomme 0.709926
+ zbonhomme 3.019877
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 14.898101
+ ybonhomme 0.725627
+ zbonhomme 2.928968
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 15.197690
+ ybonhomme 0.741328
+ zbonhomme 2.828969
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 15.497279
+ ybonhomme 0.757028
+ zbonhomme 2.717857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 15.796868
+ ybonhomme 0.772729
+ zbonhomme 2.592857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 16.096457
+ ybonhomme 0.788430
+ zbonhomme 2.450000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 16.396046
+ ybonhomme 0.804131
+ zbonhomme 2.283334
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 16.695635
+ ybonhomme 0.819831
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -357.000000
+ XValue 622
+ YValue 413
+ xbonhomme 16.995453
+ ybonhomme 0.830301
+ zbonhomme 1.833333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -358.000000
+ XValue 623
+ YValue 413
+ xbonhomme 17.295271
+ ybonhomme 0.840771
+ zbonhomme 1.500000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -358.000000
+ XValue 623
+ YValue 413
+ xbonhomme 17.595089
+ ybonhomme 0.851241
+ zbonhomme 1.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -358.000000
+ XValue 623
+ YValue 413
+ xbonhomme 17.895042
+ ybonhomme 0.856476
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -359.000000
+ XValue 624
+ YValue 413c est mort
+ xbonhomme 18.194996
+ ybonhomme 0.861712
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -7.000000
+ teta -359.000000
+ XValue 624
+ YValue 413c est mort
+ xbonhomme 18.494949
+ ybonhomme 0.856476
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -361.000000
+ XValue 626
+ YValue 411c est mort
+ xbonhomme 18.794903
+ ybonhomme 0.851240
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -6.333334
+ teta -361.000000
+ XValue 626
+ YValue 411c est mort
+ xbonhomme 19.094492
+ ybonhomme 0.835540
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 19.394081
+ ybonhomme 0.819839
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 19.693670
+ ybonhomme 0.804138
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 19.993259
+ ybonhomme 0.788437
+ zbonhomme 1.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 20.292849
+ ybonhomme 0.772736
+ zbonhomme 1.500000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 20.592438
+ ybonhomme 0.757036
+ zbonhomme 1.833333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 20.892027
+ ybonhomme 0.741335
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 21.191616
+ ybonhomme 0.725634
+ zbonhomme 2.283334
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 21.491205
+ ybonhomme 0.709933
+ zbonhomme 2.450000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 21.790794
+ ybonhomme 0.694232
+ zbonhomme 2.592857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 22.090384
+ ybonhomme 0.678531
+ zbonhomme 2.717857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 22.389973
+ ybonhomme 0.662831
+ zbonhomme 2.828969
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 22.689562
+ ybonhomme 0.647130
+ zbonhomme 2.928968
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 22.989151
+ ybonhomme 0.631429
+ zbonhomme 3.019877
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 23.288740
+ ybonhomme 0.615728
+ zbonhomme 3.103211
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 23.588329
+ ybonhomme 0.600027
+ zbonhomme 3.180134
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 23.887918
+ ybonhomme 0.584327
+ zbonhomme 3.251562
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 24.187508
+ ybonhomme 0.568626
+ zbonhomme 3.180134
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 24.487097
+ ybonhomme 0.552925
+ zbonhomme 3.103211
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 24.786686
+ ybonhomme 0.537224
+ zbonhomme 3.019877
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 25.086275
+ ybonhomme 0.521523
+ zbonhomme 2.928968
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 25.385864
+ ybonhomme 0.505822
+ zbonhomme 2.828969
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 25.685453
+ ybonhomme 0.490122
+ zbonhomme 2.717857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 25.985043
+ ybonhomme 0.474421
+ zbonhomme 2.592857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 26.284632
+ ybonhomme 0.458720
+ zbonhomme 2.450000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 26.584221
+ ybonhomme 0.443019
+ zbonhomme 2.283334
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 26.883810
+ ybonhomme 0.427318
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 27.183399
+ ybonhomme 0.411617
+ zbonhomme 1.833333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 27.482988
+ ybonhomme 0.395917
+ zbonhomme 1.500000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 27.782578
+ ybonhomme 0.380216
+ zbonhomme 1.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 28.082167
+ ybonhomme 0.364515
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 28.381756
+ ybonhomme 0.348814
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 28.681345
+ ybonhomme 0.333113
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 28.980934
+ ybonhomme 0.317412
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 29.280523
+ ybonhomme 0.301711
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 29.580112
+ ybonhomme 0.286011
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 29.879702
+ ybonhomme 0.270310
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 30.179291
+ ybonhomme 0.254609
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 30.478880
+ ybonhomme 0.238908
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 30.778469
+ ybonhomme 0.223207
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 31.078058
+ ybonhomme 0.207506
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 31.377647
+ ybonhomme 0.191806
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 31.677237
+ ybonhomme 0.176105
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 31.976826
+ ybonhomme 0.160404
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 32.276413
+ ybonhomme 0.144703
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 32.576000
+ ybonhomme 0.129002
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 32.875587
+ ybonhomme 0.113301
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 33.175175
+ ybonhomme 0.097600
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 33.474762
+ ybonhomme 0.081900
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 33.774349
+ ybonhomme 0.066199
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 34.073936
+ ybonhomme 0.050498
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 34.373524
+ ybonhomme 0.034797
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 34.673111
+ ybonhomme 0.019096
+ zbonhomme 0.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 34.972698
+ ybonhomme 0.003395
+ zbonhomme 1.000000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 35.272285
+ ybonhomme -0.012305
+ zbonhomme 1.500000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 35.571873
+ ybonhomme -0.028006
+ zbonhomme 1.833333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 35.871460
+ ybonhomme -0.043707
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 36.171047
+ ybonhomme -0.059408
+ zbonhomme 2.283334
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 36.470634
+ ybonhomme -0.075109
+ zbonhomme 2.450000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 36.770222
+ ybonhomme -0.090810
+ zbonhomme 2.592857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 37.069809
+ ybonhomme -0.106510
+ zbonhomme 2.717857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 37.369396
+ ybonhomme -0.122211
+ zbonhomme 2.828969
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 37.668983
+ ybonhomme -0.137912
+ zbonhomme 2.928968
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 37.968571
+ ybonhomme -0.153613
+ zbonhomme 3.019877
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 38.268158
+ ybonhomme -0.169314
+ zbonhomme 3.103211
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 38.567745
+ ybonhomme -0.185015
+ zbonhomme 3.180134
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 38.867332
+ ybonhomme -0.200716
+ zbonhomme 3.251562
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 39.166920
+ ybonhomme -0.216416
+ zbonhomme 3.180134
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 39.466507
+ ybonhomme -0.232117
+ zbonhomme 3.103211
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 39.766094
+ ybonhomme -0.247818
+ zbonhomme 3.019877
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 40.065681
+ ybonhomme -0.263519
+ zbonhomme 2.928968
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 40.365269
+ ybonhomme -0.279220
+ zbonhomme 2.828969
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 40.664856
+ ybonhomme -0.294921
+ zbonhomme 2.717857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 40.964443
+ ybonhomme -0.310621
+ zbonhomme 2.592857
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 41.264030
+ ybonhomme -0.326322
+ zbonhomme 2.450000
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 41.563618
+ ybonhomme -0.342023
+ zbonhomme 2.283334
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409
+ xbonhomme 41.863205
+ ybonhomme -0.357724
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mortc est mort
+ xbonhomme 42.162792
+ ybonhomme -0.373425
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 42.462379
+ ybonhomme -0.389126
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 42.761967
+ ybonhomme -0.404827
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 43.061554
+ ybonhomme -0.420527
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 43.361141
+ ybonhomme -0.436228
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 43.660728
+ ybonhomme -0.451929
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 43.960316
+ ybonhomme -0.467630
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 44.259903
+ ybonhomme -0.483331
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 44.559490
+ ybonhomme -0.499032
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 44.859077
+ ybonhomme -0.514732
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 45.158665
+ ybonhomme -0.530433
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 45.458252
+ ybonhomme -0.546134
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 45.757839
+ ybonhomme -0.561835
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta -5.666667
+ teta -363.000000
+ XValue 628
+ YValue 409c est mort
+ xbonhomme 46.033989
+ ybonhomme -0.679054
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 1.333333
+ teta -383.000000
+ XValue 648
+ YValue 388c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 1.333333
+ teta -383.000000
+ XValue 648
+ YValue 388c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 23.999998
+ teta -473.000000
+ XValue 738
+ YValue 320c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 23.999998
+ teta -473.000000
+ XValue 738
+ YValue 320c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 51.666664
+ teta -588.000000
+ XValue 853
+ YValue 237c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 51.666664
+ teta -588.000000
+ XValue 853
+ YValue 237c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -650.000000
+ XValue 915
+ YValue 155c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -650.000000
+ XValue 915
+ YValue 155c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -659.000000
+ XValue 924
+ YValue 112c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -659.000000
+ XValue 924
+ YValue 112c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -660.000000
+ XValue 925
+ YValue 92c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -660.000000
+ XValue 925
+ YValue 92c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -672.000000
+ XValue 937
+ YValue 73c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -672.000000
+ XValue 937
+ YValue 73c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -697.000000
+ XValue 962
+ YValue 38c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -697.000000
+ XValue 962
+ YValue 38c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -706.000000
+ XValue 971
+ YValue 18c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -706.000000
+ XValue 971
+ YValue 18c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9c est mort
+ xbonhomme 46.310139
+ ybonhomme -0.796274
+ zbonhomme 2.083333
+ chucks declare 3
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -30.000000
+ chucks 1 30.000000
+ chucks 1 -100.000000
+ chucks 1 0.000000
+ zeta 55.000000
+ teta -710.000000
+ XValue 975
+ YValue 9
