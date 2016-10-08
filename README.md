@@ -30,3 +30,5 @@ C:/MinGW/lib/libSDLmain.a
 C:/MinGW/lib/libSDL.dll.a
 C:/MinGW/lib/SDL_mixer.lib
 
+..
+
