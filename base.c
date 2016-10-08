@@ -7,11 +7,14 @@
 #include "declarations.h"
 #include <GL/glext.h>
 
+#define LONGUEUR 50
+
+
 //TODO: For resources allocated by the application, see if static textures are only loaded once or if its are loaded each time
 //TODO: Lower The FPS and compare the processor allocation.
 int Mix_OpenAudio(int frequency, Uint16 format, int channels, int chunksize);
 
-/*-lmingw32 
+/*-lmingw32
  -lSDLmain
  -lSDL
  -lsdl_mixer*/
@@ -19,8 +22,8 @@ int Mix_OpenAudio(int frequency, Uint16 format, int channels, int chunksize);
 //zip et cc françois le floch
 //Thierry.SOBANSKI@ICL-LILLE.FR
 //Generer volume a partir de courbe de spleen
-
-void ChargerTexture(char *nomfichier, unsigned int *nomtexture, int hauteur, int largeur) {
+void ChargerTexture(char *nomfichier, unsigned int *nomtexture, int hauteur,
+		int largeur) {
 	char chaine1[50] = "Textures/";
 	char *nom = strcat(chaine1, nomfichier);
 	//Ouverture d'une texture. Syntaxe : fopen(nom_de_fichier, mode) avec r:read, b:write
@@ -35,21 +38,21 @@ void ChargerTexture(char *nomfichier, unsigned int *nomtexture, int hauteur, int
 }
 
 /* Dessine le repère actuel pour faciliter la compréhension des transformations.
-	Utiliser « echelle » pour avoir un repère bien orienté et positionné mais avec une échelle différente. */
+ Utiliser « echelle » pour avoir un repère bien orienté et positionné mais avec une échelle différente. */
 
 void dessinerRepere(unsigned int echelle) {
-	    glPushMatrix();
-	    glScalef(echelle,echelle,echelle);
-	    glBegin(GL_LINES);
-	    glColor3ub(0,0,255);
-	    glVertex2i(0,0);
-	    glVertex2i(1,0);
-	    glColor3ub(0,255,0);
-	    glVertex2i(0,0);
-	    glVertex2i(0,1);
-	    glEnd();
-	    glPopMatrix();
-	}
+	glPushMatrix();
+	glScalef(echelle, echelle, echelle);
+	glBegin(GL_LINES);
+	glColor3ub(0, 0, 255);
+	glVertex2i(0, 0);
+	glVertex2i(1, 0);
+	glColor3ub(0, 255, 0);
+	glVertex2i(0, 0);
+	glVertex2i(0, 1);
+	glEnd();
+	glPopMatrix();
+}
 
 void Initialize(int Width, int Height) {
 	glClearColor(0.0, 0.0, 0.0, 1.0);
@@ -146,16 +149,21 @@ void KeyfuncUp(unsigned char Key, int X, int Y) {
 }
 
 void Menu(int Value) {
-		perspectiveChoice = Value;
+	perspectiveChoice = Value;
 }
 
 int main(int argc, char **argv) {
 
 	int continuer = 1;
+	int angle1 = -15;
+	int angle2 = -50;
+	int longueur = 15;
 
 	SDL_Init(SDL_INIT_VIDEO);
-	SDL_WM_SetCaption("OpenGL",NULL);
+	SDL_WM_SetCaption("OpenGL", NULL);
 	SDL_SetVideoMode(640, 480, 32, SDL_OPENGL);
+
+	SDL_EnableKeyRepeat(10,10);
 
 	SDL_Event event;
 
@@ -180,14 +188,61 @@ int main(int argc, char **argv) {
 			return EXIT_SUCCESS;
 
 			break;
+
+		case SDL_KEYDOWN:
+
+			switch (event.key.keysym.sym)
+
+			{
+
+			case SDLK_UP:
+				longueur--;
+				if (longueur < 10)
+				longueur = 10;
+				break;
+			case SDLK_DOWN:
+				longueur++;
+				if (longueur > 100)
+				longueur = 100;
+				break;
+			case SDLK_LEFT:
+				if ((event.key.keysym.mod & KMOD_LSHIFT) == KMOD_LSHIFT)
+				{
+					angle1++;
+					if (angle1 > 90)
+					angle1 = 90;
+				}
+				else
+				{
+					angle2++;
+					if (angle2 > 90)
+					angle2 = 90;
+				}
+				break;
+			case SDLK_RIGHT:
+				if ((event.key.keysym.mod & KMOD_LSHIFT) == KMOD_LSHIFT)
+				{
+					angle1--;
+					if (angle1 < 10)
+					angle1 = 10;
+				}
+				else
+				{
+					angle2--;
+					if (angle2 < -90)
+					angle2 = -90;
+				}
+				break;
+			}
+			break;
 		}
 
-		glClear(GL_COLOR_BUFFER_BIT);
-		glMatrixMode( GL_MODELVIEW );
-		glLoadIdentity( );
-		gluOrtho2D(-10,40,-10,40);
+			glClear(GL_COLOR_BUFFER_BIT);
+			glMatrixMode( GL_MODELVIEW);
+			glLoadIdentity();
+			gluOrtho2D(-10, 40, -10, 40);
 
-		//MAIN VIDEO GAME DRAWING**********************************************
+			//MAIN VIDEO GAME DRAWING**********************************************
 
 //		        glBegin(GL_TRIANGLES);
 //		            glColor3ub(255,0,0);    glVertex2d(-0.75,-0.75);
@@ -195,65 +250,61 @@ int main(int argc, char **argv) {
 //		            glColor3ub(0,0,255);    glVertex2d(0.75,-0.75);
 //		        glEnd();
 
-
-
-
 			glBegin(GL_QUADS);
-					glColor3ub(255,127,39);
-					glVertex2d(-3.00,0);
-					glVertex2d(0,0);
-					glVertex2d(0,1);
-					glVertex2d(-3,1);
+			glColor3ub(255, 127, 39);
+			glVertex2d(-3.00, 0);
+			glVertex2d(0, 0);
+			glVertex2d(0, 1);
+			glVertex2d(-3, 1);
 			glEnd();
 
-			glTranslatef(-1.5,1,0);
-			glRotated(-15,0,0,1);
+			glTranslatef(-1.5, 1, 0);
+			glRotated(angle1, 0, 0, 1);
 			glBegin(GL_QUADS);
-					glColor3ub(255,255,0);
-					glVertex2d(-0.5,0);
-					glVertex2d(0.5,0);
-					glVertex2d(0.5,12);
-					glVertex2d(-0.5,12);
+			glColor3ub(255, 255, 0);
+			glVertex2d(-0.5, 0);
+			glVertex2d(0.5, 0);
+			glVertex2d(0.5, longueur);
+			glVertex2d(-0.5, longueur);
 			glEnd();
 
-			glTranslatef(0,12,0);
-			glRotated(-5,0,0,1);
+			glTranslatef(0, longueur, 0);
+			glRotated(angle2, 0, 0, 1);
 			glBegin(GL_QUADS);
-					glColor3ub(0,255,0);
-					glVertex2d(-0.3,0);
-					glVertex2d(0.3,0);
-					glVertex2d(0.3,4);
-					glVertex2d(-0.3,4);
+			glColor3ub(0, 255, 0);
+			glVertex2d(-0.3, 0);
+			glVertex2d(0.3, 0);
+			glVertex2d(0.3, 4);
+			glVertex2d(-0.3, 4);
 			glEnd();
 
-			glTranslatef(0,4,0);
-			glRotated(20,0,0,1);
+			glTranslatef(0, 4, 0);
+			glRotated(-angle1-angle2, 0, 0, 1);
 			glBegin(GL_LINES);
-					glColor3ub(255,255,255);
-					glVertex2d(0,0);
-					glVertex2d(0,-5);
+			glColor3ub(255, 255, 255);
+			glVertex2d(0, 0);
+			glVertex2d(0, -5);
 			glEnd();
 
-			glTranslatef(0,-5,0);
+			glTranslatef(0, -5, 0);
 			glBegin(GL_QUADS);
-					glColor3ub(150,255,27);
-					glVertex2d(-0.5,0);
-					glVertex2d(0.5,0);
-					glVertex2d(0.5,-1);
-					glVertex2d(-0.5,-1);
+			glColor3ub(150, 255, 27);
+			glVertex2d(-0.5, 0);
+			glVertex2d(0.5, 0);
+			glVertex2d(0.5, -1);
+			glVertex2d(-0.5, -1);
 			glEnd();
 
-			glLoadIdentity( );
-			gluOrtho2D(-10,40,-10,40);
+			glLoadIdentity();
+			gluOrtho2D(-10, 40, -10, 40);
 
-		dessinerRepere(10);
+			dessinerRepere(10);
 
+			//MAIN VIDEO GAME DRAWING END******************************************
 
-		//MAIN VIDEO GAME DRAWING END******************************************
+			glFlush();
+			SDL_GL_SwapBuffers();
+		}
 
-		glFlush();
-				SDL_GL_SwapBuffers();
+		return 0;
 	}
-
-	return 0;
-}
