@@ -34,6 +34,23 @@ void ChargerTexture(char *nomfichier, unsigned int *nomtexture, int hauteur, int
 	}
 }
 
+/* Dessine le repère actuel pour faciliter la compréhension des transformations.
+	Utiliser « echelle » pour avoir un repère bien orienté et positionné mais avec une échelle différente. */
+
+void dessinerRepere(unsigned int echelle) {
+	    glPushMatrix();
+	    glScalef(echelle,echelle,echelle);
+	    glBegin(GL_LINES);
+	    glColor3ub(0,0,255);
+	    glVertex2i(0,0);
+	    glVertex2i(1,0);
+	    glColor3ub(0,255,0);
+	    glVertex2i(0,0);
+	    glVertex2i(0,1);
+	    glEnd();
+	    glPopMatrix();
+	}
+
 void Initialize(int Width, int Height) {
 	glClearColor(0.0, 0.0, 0.0, 1.0);
 	Resize(Width, Height);
@@ -133,21 +150,12 @@ void Menu(int Value) {
 }
 
 int main(int argc, char **argv) {
+
 	int continuer = 1;
+
 	SDL_Init(SDL_INIT_VIDEO);
 	SDL_WM_SetCaption("OpenGL",NULL);
 	SDL_SetVideoMode(640, 480, 32, SDL_OPENGL);
-
-
-
-
-// void update(){
-//
-//   glutPostRedisplay(); //Tell GLUT that the scene has changed
-//   glutTimerFunc(100, update, 0);//Tell GLUT to call update again in 700 milliseconds
-//   }
-//
-//   update(Drawscene);
 
 	SDL_Event event;
 
@@ -175,48 +183,77 @@ int main(int argc, char **argv) {
 		}
 
 		glClear(GL_COLOR_BUFFER_BIT);
+		glMatrixMode( GL_MODELVIEW );
+		glLoadIdentity( );
+		gluOrtho2D(-10,40,-10,40);
 
-		        glBegin(GL_TRIANGLES);
-		            glColor3ub(255,0,0);    glVertex2d(-0.75,-0.75);
-		            glColor3ub(0,255,0);    glVertex2d(0,0.75);
-		            glColor3ub(0,0,255);    glVertex2d(0.75,-0.75);
-		        glEnd();
+		//MAIN VIDEO GAME DRAWING**********************************************
+
+//		        glBegin(GL_TRIANGLES);
+//		            glColor3ub(255,0,0);    glVertex2d(-0.75,-0.75);
+//		            glColor3ub(0,255,0);    glVertex2d(0,0.75);
+//		            glColor3ub(0,0,255);    glVertex2d(0.75,-0.75);
+//		        glEnd();
 
 
-//		glutInit(&argc, argv);
-//			glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
-//			glutInitWindowSize(WindowWidth, WindowHeight);
-//			glutCreateWindow("OpenGL & Glut: Programme de base");
-//			glutDisplayFunc(Drawscene);
-//			glutReshapeFunc(Resize);
-//			glutKeyboardFunc(Keyfunc);
-//			glutKeyboardUpFunc(KeyfuncUp);
-//			glutMouseFunc(Mousefunc);
-//			glutWarpPointer(WindowWidth/2, WindowHeight/2);
-//			glutMotionFunc(Mousemove);
-//			glutPassiveMotionFunc(PassiveMove);
-//			Initialize(1200, 700);
-//
-//			glutCreateMenu(Menu);
-//			//glutAddMenuEntry("--------", 0);
-//			glutAddMenuEntry("Vue de dessus", 1);
-//			glutAddMenuEntry("Vue soucoupe", 2);
-//			glutAddMenuEntry("Vue dessus", 3);
-//			glutAddMenuEntry("Vue de face", 4);
-//			glutAddMenuEntry("Vue de gauche", 5);
-//			glutAddMenuEntry("Vue de droite", 6);
-//			glutAddMenuEntry("Quit", 666);
-//			glutAttachMenu(GLUT_RIGHT_BUTTON);
-//			glutIdleFunc(Drawscene);
-//
-//		glutMainLoop();
+
+
+			glBegin(GL_QUADS);
+					glColor3ub(255,127,39);
+					glVertex2d(-3.00,0);
+					glVertex2d(0,0);
+					glVertex2d(0,1);
+					glVertex2d(-3,1);
+			glEnd();
+
+			glTranslatef(-1.5,1,0);
+			glRotated(-15,0,0,1);
+			glBegin(GL_QUADS);
+					glColor3ub(255,255,0);
+					glVertex2d(-0.5,0);
+					glVertex2d(0.5,0);
+					glVertex2d(0.5,12);
+					glVertex2d(-0.5,12);
+			glEnd();
+
+			glTranslatef(0,12,0);
+			glRotated(-5,0,0,1);
+			glBegin(GL_QUADS);
+					glColor3ub(0,255,0);
+					glVertex2d(-0.3,0);
+					glVertex2d(0.3,0);
+					glVertex2d(0.3,4);
+					glVertex2d(-0.3,4);
+			glEnd();
+
+			glTranslatef(0,4,0);
+			glRotated(20,0,0,1);
+			glBegin(GL_LINES);
+					glColor3ub(255,255,255);
+					glVertex2d(0,0);
+					glVertex2d(0,-5);
+			glEnd();
+
+			glTranslatef(0,-5,0);
+			glBegin(GL_QUADS);
+					glColor3ub(150,255,27);
+					glVertex2d(-0.5,0);
+					glVertex2d(0.5,0);
+					glVertex2d(0.5,-1);
+					glVertex2d(-0.5,-1);
+			glEnd();
+
+			glLoadIdentity( );
+			gluOrtho2D(-10,40,-10,40);
+
+		dessinerRepere(10);
+
+
+		//MAIN VIDEO GAME DRAWING END******************************************
 
 		glFlush();
-			    SDL_GL_SwapBuffers();
+				SDL_GL_SwapBuffers();
 	}
-
-	//En mode non SDL
-//	glutMainLoop();
 
 	return 0;
 }
