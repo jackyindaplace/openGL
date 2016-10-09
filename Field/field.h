@@ -19,7 +19,9 @@ extern void groundGrass(float xstart, float xend, float ystart, float yend, floa
 
 extern void groundLava(float xstart, float xend, float ystart, float yend, float zstart, float zend);
 
-extern void cube(float x, float y, float z);
+extern void caisse(float x, float y, float z);
+
+extern void cube(double x, double y, double z);
 
 extern void wall(float x1, float y1, float z1, float width, float height, int declare);
 

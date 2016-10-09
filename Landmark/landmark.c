@@ -11,38 +11,47 @@ void DrawAxes(float X, float Y, float Z) {
 	glBegin(GL_LINES);
 	glColor3f(1.0, 0.0, 0.0);
 	glVertex3f(X, Y, Z);
-	glVertex3f(X + 1.5, Y, Z);
-	glColor3f(1.0, 0.0, 0.0);
+	glVertex3f(X + 1.34, Y, Z);
+	glColor3f(1.0, 1.0, 0.0);
 	glVertex3f(X, Y, Z);
-	glVertex3f(X, Y + 1.5, Z);
-	glColor3f(1.0, 0.0, 0.0);
+	glVertex3f(X, Y + 1.34, Z);
+	glColor3f(0.0, 0.0, 1.0);
 	glVertex3f(X, Y, Z);
-	glVertex3f(X, Y, Z + 1.5);
+	glVertex3f(X, Y, Z + 1.34);
 	glEnd();
 
 	//Texte indiquant le nom des axes
-	glRasterPos3f(X + 1.0, Y, Z);
-	glutBitmapCharacter(GLUT_BITMAP_9_BY_15, nomaxex);
-	glRasterPos3f(X, Y + 1.0, Z);
-	glutBitmapCharacter(GLUT_BITMAP_9_BY_15, nomaxey);
-	glRasterPos3f(X, Y, Z + 1.0);
-	glutBitmapCharacter(GLUT_BITMAP_9_BY_15, nomaxez);
+//	glRasterPos3f(X + 1.0, Y, Z);
+//	glutBitmapCharacter(GLUT_BITMAP_9_BY_15, nomaxex);
+//	glRasterPos3f(X, Y + 1.0, Z);
+//	glutBitmapCharacter(GLUT_BITMAP_9_BY_15, nomaxey);
+//	glRasterPos3f(X, Y, Z + 1.0);
+//	glutBitmapCharacter(GLUT_BITMAP_9_BY_15, nomaxez);
 
-	glColor3f(1.0, 0.0, 0.0);
+	glColor3f(1.0, 1.0, 0.0);
+
+	glTranslated(1.5,0,0);
+	glRotated(90,1,0,0);
+	//glutSolidCone(0.3, 0.5, 1000, 1000);
+	glRotated(-90,1,0,0);
+	glTranslated(-1.5,1.5,0);
+	glRotated(90,0,1,0);
+
+
 	glBegin(GL_POLYGON);
 	glVertex3f(X + 1.5, Y, Z);
 	glVertex3f(X + 1.35, Y - 0.05, Z);
 	glVertex3f(X + 1.35, Y - 0.05, Z);
 	glEnd();
 
-	glColor3f(0.0, 1.0, 0.0);
+	glColor3f(0.0, 1.0, 1.0);
 	glBegin(GL_POLYGON);
 	glVertex3f(X, Y + 1.5, Z);
 	glVertex3f(X - 0.05, X + 1.35, Z);
 	glVertex3f(X + 0.05, X + 1.35, Z);
 	glEnd();
 
-	glColor3f(0.0, 0.0, 1.0);
+	glColor3f(1.0, 0.0, 1.0);
 	glBegin(GL_POLYGON);
 	glVertex3f(X, Y, Z + 1.5);
 	glVertex3f(X - 0.05, Y, Z + 1.35);

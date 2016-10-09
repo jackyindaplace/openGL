@@ -6,13 +6,12 @@
 #include <SDL/SDL_mixer.h>
 #include "declarations.h"
 #include <GL/glext.h>
-
-#define LONGUEUR 50
-
+#include "Landmark/landmark.h"
+#include "Field/field.h"
 
 //TODO: For resources allocated by the application, see if static textures are only loaded once or if its are loaded each time
 //TODO: Lower The FPS and compare the processor allocation.
-int Mix_OpenAudio(int frequency, Uint16 format, int channels, int chunksize);
+//int Mix_OpenAudio(int frequency, Uint16 format, int channels, int chunksize);
 
 /*-lmingw32
  -lSDLmain
@@ -44,15 +43,20 @@ void dessinerRepere(unsigned int echelle) {
 	glPushMatrix();
 	glScalef(echelle, echelle, echelle);
 	glBegin(GL_LINES);
+	glColor3ub(255, 0, 0);
+	glVertex3i(0, 0,0);
+	glVertex3i(1, 0,0);
 	glColor3ub(0, 0, 255);
-	glVertex2i(0, 0);
-	glVertex2i(1, 0);
-	glColor3ub(0, 255, 0);
-	glVertex2i(0, 0);
-	glVertex2i(0, 1);
+	glVertex3i(0, 0,0);
+	glVertex3i(0, 1,0);
+	glColor3ub(0, 255, 255);
+	glVertex3i(0, 0,0);
+	glVertex3i(0, 0,1);
 	glEnd();
 	glPopMatrix();
 }
+
+
 
 void Initialize(int Width, int Height) {
 	glClearColor(0.0, 0.0, 0.0, 1.0);
@@ -155,9 +159,10 @@ void Menu(int Value) {
 int main(int argc, char **argv) {
 
 	int continuer = 1;
-	int angle1 = -15;
-	int angle2 = -50;
-	int longueur = 15;
+	double angleCube = 0;
+	double angleCubeX = 0;
+	Uint32 last_time = SDL_GetTicks();
+	Uint32 current_time,ellapsed_time;
 
 	SDL_Init(SDL_INIT_VIDEO);
 	SDL_WM_SetCaption("OpenGL", NULL);
@@ -167,23 +172,26 @@ int main(int argc, char **argv) {
 
 	SDL_Event event;
 
-	if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024)
-			== -1) //Initialisation de l'API Mixer
-			{
-		printf("%s", Mix_GetError());
-	}
-	Mix_Music *musique; //Création du pointeur de type Mix_Music
-	musique = Mix_LoadMUS("Sound/Sugar feat. Milie oops (do di do di dam).mp3"); //Chargement de la musique
-	Mix_PlayMusic(musique, -1); //Jouer infiniment la musique-----------
+//	if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024)
+//			== -1) //Initialisation de l'API Mixer
+//			{
+//		printf("%s", Mix_GetError());
+//	}
+//	Mix_Music *musique; //Création du pointeur de type Mix_Music
+	//musique = Mix_LoadMUS("Sound/Sugar feat. Milie oops (do di do di dam).mp3"); //Chargement de la musique
+	//Mix_PlayMusic(musique, -1); //Jouer infiniment la musique-----------
 
 	while (continuer) {
-		SDL_WaitEvent(&event);
+		SDL_PollEvent(&event);
+		current_time = SDL_GetTicks();
+		ellapsed_time = current_time - last_time;
+		last_time = current_time;
 
 		switch (event.type) {
 		case SDL_QUIT:
 			continuer = 0;
-			Mix_FreeMusic(musique); //Libération de la musique
-			Mix_CloseAudio(); //Fermeture de l'API
+//			Mix_FreeMusic(musique); //Libération de la musique
+//			Mix_CloseAudio(); //Fermeture de l'API
 			SDL_Quit(); //TODO: Bug when closing application
 			return EXIT_SUCCESS;
 
@@ -196,109 +204,81 @@ int main(int argc, char **argv) {
 			{
 
 			case SDLK_UP:
-				longueur--;
-				if (longueur < 10)
-				longueur = 10;
-				break;
+				angleCubeX++;
+				if (angleCubeX == 360) angleCubeX = 0;
+
+					break;
 			case SDLK_DOWN:
-				longueur++;
-				if (longueur > 100)
-				longueur = 100;
+				angleCubeX--;
+				if (angleCubeX < 0) angleCubeX = 360;
 				break;
 			case SDLK_LEFT:
-				if ((event.key.keysym.mod & KMOD_LSHIFT) == KMOD_LSHIFT)
-				{
-					angle1++;
-					if (angle1 > 90)
-					angle1 = 90;
-				}
-				else
-				{
-					angle2++;
-					if (angle2 > 90)
-					angle2 = 90;
-				}
+				//if ((event.key.keysym.mod & KMOD_LSHIFT) == KMOD_LSHIFT)
+//				{
+//					angle1++;
+//					if (angle1 > 90)
+//					angle1 = 90;
+//				}
+//				else
+//				{
+//					angle2++;
+//					if (angle2 > 90)
+//					angle2 = 90;
+//				}
+				angleCube++;
+				if (angleCube == 360) angleCube = 0;
 				break;
+
 			case SDLK_RIGHT:
-				if ((event.key.keysym.mod & KMOD_LSHIFT) == KMOD_LSHIFT)
-				{
-					angle1--;
-					if (angle1 < 10)
-					angle1 = 10;
-				}
-				else
-				{
-					angle2--;
-					if (angle2 < -90)
-					angle2 = -90;
-				}
+//				if ((event.key.keysym.mod & KMOD_LSHIFT) == KMOD_LSHIFT)
+//				{
+//					angle1--;
+//					if (angle1 < 10)
+//					angle1 = 10;
+//				}
+//				else
+//				{
+//					angle2--;
+//					if (angle2 < -90)
+//					angle2 = -90;
+//				}
+				angleCube--;
+				if (angleCube < 0) angleCube = 360;
 				break;
+
+			default:
+			break;
 			}
 			break;
 		}
 
-			glClear(GL_COLOR_BUFFER_BIT);
-			glMatrixMode( GL_MODELVIEW);
+			glMatrixMode(GL_PROJECTION);
 			glLoadIdentity();
-			gluOrtho2D(-10, 40, -10, 40);
+			gluPerspective(70,(double)640/480,1,1000);
+			glEnable(GL_DEPTH_TEST);
+
+			glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
+			//glClear( GL_COLOR_BUFFER_BIT);
+			glMatrixMode( GL_MODELVIEW );
+			glLoadIdentity( );
+			gluLookAt(3,3,3,0,0,0,0,1,0);
 
 			//MAIN VIDEO GAME DRAWING**********************************************
 
-//		        glBegin(GL_TRIANGLES);
-//		            glColor3ub(255,0,0);    glVertex2d(-0.75,-0.75);
-//		            glColor3ub(0,255,0);    glVertex2d(0,0.75);
-//		            glColor3ub(0,0,255);    glVertex2d(0.75,-0.75);
-//		        glEnd();
+			angleCube += 0.05 * ellapsed_time;
+			angleCubeX += 0.05 * ellapsed_time;
 
-			glBegin(GL_QUADS);
-			glColor3ub(255, 127, 39);
-			glVertex2d(-3.00, 0);
-			glVertex2d(0, 0);
-			glVertex2d(0, 1);
-			glVertex2d(-3, 1);
-			glEnd();
+			glRotated(angleCube,0,1,0);
+			glRotated(angleCubeX,1,0,0);
+			cube(0,0,0);
 
-			glTranslatef(-1.5, 1, 0);
-			glRotated(angle1, 0, 0, 1);
-			glBegin(GL_QUADS);
-			glColor3ub(255, 255, 0);
-			glVertex2d(-0.5, 0);
-			glVertex2d(0.5, 0);
-			glVertex2d(0.5, longueur);
-			glVertex2d(-0.5, longueur);
-			glEnd();
+			ellapsed_time = SDL_GetTicks() - current_time;
+			if (ellapsed_time < 10)   SDL_Delay(10 - ellapsed_time);
 
-			glTranslatef(0, longueur, 0);
-			glRotated(angle2, 0, 0, 1);
-			glBegin(GL_QUADS);
-			glColor3ub(0, 255, 0);
-			glVertex2d(-0.3, 0);
-			glVertex2d(0.3, 0);
-			glVertex2d(0.3, 4);
-			glVertex2d(-0.3, 4);
-			glEnd();
-
-			glTranslatef(0, 4, 0);
-			glRotated(-angle1-angle2, 0, 0, 1);
-			glBegin(GL_LINES);
-			glColor3ub(255, 255, 255);
-			glVertex2d(0, 0);
-			glVertex2d(0, -5);
-			glEnd();
-
-			glTranslatef(0, -5, 0);
-			glBegin(GL_QUADS);
-			glColor3ub(150, 255, 27);
-			glVertex2d(-0.5, 0);
-			glVertex2d(0.5, 0);
-			glVertex2d(0.5, -1);
-			glVertex2d(-0.5, -1);
-			glEnd();
-
-			glLoadIdentity();
-			gluOrtho2D(-10, 40, -10, 40);
-
-			dessinerRepere(10);
+			//glColor3f(1.0, 1.0, 0.0);
+			//glutSolidCone(0.3, 0.5, 50, 50);
+			//DrawAxes(0.0,0.0,0.0);
+			//dessinerRepere(2);
 
 			//MAIN VIDEO GAME DRAWING END******************************************
 

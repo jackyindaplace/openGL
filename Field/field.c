@@ -132,7 +132,78 @@ void groundLava(float xstart, float xend, float ystart, float yend, float zstart
 	declareChunck(xstart, xend, ystart, yend, zstart, zend);
 }
 
-void cube(float x, float y, float z) {
+void cube(double x, double y, double z) {
+
+	glBegin(GL_QUADS);
+
+	 //face rouge
+	glColor3ub(255, 0, 0);
+
+	glTexCoord2d(0.0, 0.0);
+	glVertex3d(x - 1, y - 1, z - 1);
+	glTexCoord2d(0.0, 1.0);
+	glVertex3d(x - 1, y + 1, z - 1);
+	glTexCoord2d(1.0, 1.0);
+	glVertex3d(x + 1, y + 1, z - 1);
+	glTexCoord2d(1.0, 0.0);
+	glVertex3d(x + 1, y - 1, z - 1);
+
+
+	glColor3ub(0, 255, 0);
+	glTexCoord2f(0.0, 0.0);
+	glVertex3d(x - 1, y - 1, z - 1);
+	glTexCoord2f(0.0, 1.0);
+	glVertex3d(x + 1, y - 1, z - 1);
+	glTexCoord2f(1.0, 1.0);
+	glVertex3d(x + 1, y - 1, z + 1);
+	glTexCoord2f(1.0, 0.0);
+	glVertex3d(x - 1, y - 1, z + 1);
+
+	glColor3ub(0,0,255);
+	glTexCoord2f(0.0, 0.0);
+	glVertex3d(x + 1, y - 1, z - 1);
+	glTexCoord2f(0.0, 1.0);
+	glVertex3d(x + 1, y + 1, z - 1);
+	glTexCoord2f(1.0, 1.0);
+	glVertex3d(x + 1, y + 1, z + 1);
+	glTexCoord2f(1.0, 0.0);
+	glVertex3d(x + 1, y - 1, z + 1);
+
+	glColor3ub(255, 255, 0);
+	glTexCoord2f(0.0, 0.0);
+	glVertex3d(x + 1, y + 1, z - 1);
+	glTexCoord2f(0.0, 1.0);
+	glVertex3d(x + 1, y + 1, z + 1);
+	glTexCoord2f(1.0, 1.0);
+	glVertex3d(x - 1, y + 1, z + 1);
+	glTexCoord2f(1.0, 0.0);
+	glVertex3d(x - 1, y + 1, z - 1);
+
+	glColor3ub(255, 0, 255);
+	glTexCoord2f(0.0, 0.0);
+	glVertex3d(x - 1, y + 1, z + 1);
+	glTexCoord2f(0.0, 1.0);
+	glVertex3d(x - 1, y + 1, z - 1);
+	glTexCoord2f(1.0, 1.0);
+	glVertex3d(x - 1, y - 1, z - 1);
+	glTexCoord2f(1.0, 0.0);
+	glVertex3d(x - 1, y - 1, z + 1);
+
+	glColor3ub(0, 255, 255);
+	glTexCoord2f(0.0, 0.0);
+	glVertex3d(x - 1, y - 1, z + 1);
+	glTexCoord2f(0.0, 1.0);
+	glVertex3d(x + 1, y - 1, z + 1);
+	glTexCoord2f(1.0, 1.0);
+	glVertex3d(x + 1, y + 1, z + 1);
+	glTexCoord2f(1.0, 0.0);
+	glVertex3d(x - 1, y + 1, z + 1);
+
+	glEnd();
+
+}
+
+void caisse(float x, float y, float z) {
 
 	AppliquerTexture(TextureCaisse, 256, 256, 1, 0);
 
