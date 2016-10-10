@@ -10,26 +10,9 @@
 
 // Textures declarations
 
-	FILE *OuvrirTexture;	//TODO:Why deleting the include SDL/SDL_mixer.h leads to build error on this line ?
-	int unsigned TextureGrilleSoucoupe[32 * 32 * 3];
-	int unsigned TextureSolSable[512 * 512 * 3];
-	int unsigned TextureSolEau[512 * 512 * 3];
-	int unsigned TextureSolHerbe[512 * 512 * 3];
-	int unsigned TextureFace[512 * 256 * 3];
-	int unsigned TexturePantalon[80 * 128 * 3];
-	int unsigned TextureCeinture[240 * 32 * 3];
-	int unsigned TextureCaisse[256 * 256 * 3];
-	int unsigned TextureBassin[400 * 64 * 3];
-	int unsigned TextureChaussures[140 * 28 * 3];
-	int unsigned TextureHalo[256 * 256 * 4];
-	int unsigned TextureLava[512 * 512 * 3];
-	int unsigned TextureWall_Dirty[512 * 512 * 3];
-	int unsigned TextureSpyglass[256 * 256 * 3];
-	int unsigned TextureTransparent[512 * 512 * 3];
-	int unsigned TextureFond[512 * 512 * 3];
-	int unsigned TextureBlack[512 * 512 * 3];
-	int unsigned TextureRed[512 * 512 * 3];
-	int unsigned TextureRgb[512 * 512 * 3];
+	GLuint textureCaisse;
+	GLuint textureGroundDust;
+
 
 //Application Parameters Main Declarations
 

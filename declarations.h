@@ -10,26 +10,8 @@
 
 // Textures declarations
 
-	extern FILE *OuvrirTexture;	//TODO:Why deleting the include SDL/SDL_mixer.h leads to build error on this line ?
-	extern unsigned int TextureGrilleSoucoupe[32 * 32 * 3];
-	extern unsigned int TextureSolSable[512 * 512 * 3];
-	extern unsigned int TextureSolEau[512 * 512 * 3];
-	extern unsigned int TextureSolHerbe[512 * 512 * 3];
-	extern unsigned int TextureFace[512 * 256 * 3];
-	extern unsigned int TexturePantalon[80 * 128 * 3];
-	extern unsigned int TextureCeinture[240 * 32 * 3];
-	extern unsigned int TextureCaisse[256 * 256 * 3];
-	extern unsigned int TextureBassin[400 * 64 * 3];
-	extern unsigned int TextureChaussures[140 * 28 * 3];
-	extern unsigned int TextureHalo[256 * 256 * 4];
-	extern unsigned int TextureLava[512 * 512 * 3];
-	extern unsigned int TextureWall_Dirty[512 * 512 * 3];
-	extern unsigned int TextureSpyglass[256 * 256 * 3];
-	extern unsigned int TextureTransparent[512 * 512 * 3];
-	extern unsigned int TextureFond[512 * 512 * 3];
-	extern unsigned int TextureBlack[512 * 512 * 3];
-	extern unsigned int TextureRed[512 * 512 * 3];
-	extern unsigned int TextureRgb[512 * 512 * 3];
+	extern GLuint textureCaisse;
+	extern GLuint textureGroundDust;
 
 //Application Parameters Main Declarations
 
@@ -123,8 +105,3 @@
 	extern int spacebar;
 	extern float pi;
 
-
-//	extern void Mousemotionmove ( int X, int Y);
-//	extern void Mousemotionzoom ( int X, int Y);
-//	extern void MouvementBonhomme(int X);
-//	extern void RotateBonhomme(void);
