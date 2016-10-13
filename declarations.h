@@ -12,6 +12,8 @@
 
 	extern GLuint textureCaisse;
 	extern GLuint textureGroundDust;
+	extern GLuint textureGrilleSoucoupe;
+	extern GLuint textureHalo;
 
 //Application Parameters Main Declarations
 

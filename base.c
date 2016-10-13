@@ -47,6 +47,9 @@ int main(int argc, char **argv) {
 	textureCaisse = loadTexture("Textures/caisse.tga", 0 );
 	textureGroundDust = loadTexture("Textures/sand03.tga", 0 );
 
+	textureGrilleSoucoupe = loadTexture("Textures/soucoupe.bmp", 0 );
+	textureHalo = loadTexture("Textures/halo.bmp", 0 );
+
 	SDL_Event event;
 
 //	if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024)
@@ -128,11 +131,14 @@ int main(int argc, char **argv) {
 
 			tetaCam += 0.05 * ellapsed_time;
 			if (tetaCam > 360) tetaCam = 0;
-			printf("%d \n",tetaCam);
+			printf("tetacam = %d \n",tetaCam);
 			printf( "hello world\n" );
 			gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
+			//gluLookAt(5,2,5, 0,2,0, 0,1,0);
 
 //*************//MAIN VIDEO GAME DRAWING**********************************************
+
+			glEnable(GL_TEXTURE_2D);
 
 			//Create Ground
 			groundDust(-20, 20, 0, -10, 10);
@@ -149,8 +155,28 @@ int main(int argc, char **argv) {
 			ellapsed_time = SDL_GetTicks() - current_time;
 			if (ellapsed_time < 10)   SDL_Delay(10 - ellapsed_time);
 
-			//glColor3f(1.0, 1.0, 0.0);
-			//glutSolidCone(0.3, 0.5, 50, 50);
+			glLoadIdentity();
+			gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
+
+			GLUquadric* params;
+			params = gluNewQuadric();
+			glDisable(GL_TEXTURE_2D);
+			glColor3ub(255, 255, 255);
+			glTranslated(2,2,2);
+			gluSphere(params,0.5,20,20);
+			glTranslated(0,1,0);
+			gluSphere(params,0.5,20,20);
+			glTranslated(0,1,0);
+			gluSphere(params,0.5,20,20);
+			gluDeleteQuadric(params);
+
+			glLoadIdentity();
+			gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
+			glTranslated(4,9,0);
+			glRotated(-90,1,0,0);
+			soucoupe();
+
+
 			//DrawAxes(0.0,0.0,0.0);
 			//dessinerRepere(2);
 

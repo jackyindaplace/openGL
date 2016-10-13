@@ -5,6 +5,7 @@
 // *      Author: Maxence Fromentin
 // */
 //
-//extern void soucoupe();
+extern void soucoupe();
+
 //
 //extern void kinematicSaucer();

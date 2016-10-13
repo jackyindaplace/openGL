@@ -12,6 +12,8 @@
 
 	GLuint textureCaisse;
 	GLuint textureGroundDust;
+	GLuint textureGrilleSoucoupe;
+	GLuint textureHalo;
 
 
 //Application Parameters Main Declarations
