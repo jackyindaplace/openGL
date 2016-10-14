@@ -9,7 +9,7 @@
 #define GL_CLAMP_TO_EDGE 0x812F
 #endif
 
-GLuint loadTexture(const char * filename, int useMipMap);
+GLuint loadTexture(const char * filename, bool useMipMap);
 int takeScreenshot(const char * filename);
 void drawAxis(double scale);
 int initFullScreen(unsigned int * width, unsigned int * height);

@@ -14,7 +14,8 @@
 	GLuint textureGroundDust;
 	GLuint textureGrilleSoucoupe;
 	GLuint textureHalo;
-
+	GLuint earth;
+	GLuint grind;
 
 //Application Parameters Main Declarations
 

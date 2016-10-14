@@ -9,7 +9,7 @@
 
 SDL_Surface * flipSurface(SDL_Surface * surface);
 
-GLuint loadTexture(const char * filename,int useMipMap)
+GLuint loadTexture(const char * filename, bool useMipMap)
 {
     GLuint glID;
     SDL_Surface * picture_surface = NULL;

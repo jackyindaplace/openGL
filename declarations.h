@@ -14,6 +14,8 @@
 	extern GLuint textureGroundDust;
 	extern GLuint textureGrilleSoucoupe;
 	extern GLuint textureHalo;
+	extern GLuint earth;
+	extern GLuint grind;
 
 //Application Parameters Main Declarations
 

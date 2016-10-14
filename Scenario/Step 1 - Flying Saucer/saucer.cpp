@@ -19,7 +19,9 @@ void soucoupe() {
 	glDisable(GL_TEXTURE_2D);
 
 	//Cône : Partie inférieure de la soucoupe
-	glColor3ub(81, 183, 96); //Vert
+	glColor3ub(0, 0, 0); //Noir
+	//glColor3ub(253, 57, 116); //Rose
+	//glColor3ub(81, 183, 96); //Vert
 	gluCylinder(params, 1.7, 0.0, 0.2, 20, 1);
 
 	//Cône: Partie supérieure de la soucoupe
@@ -45,6 +47,7 @@ void soucoupe() {
 	glTranslatef(0, 0, -0.55);
 
 	//Cylindre du milieu de la soucoupe.
+	glColor3ub(255, 255, 255); //Noir
 	glEnable(GL_TEXTURE_2D);
 	glBindTexture(GL_TEXTURE_2D, textureGrilleSoucoupe);
 
@@ -68,14 +71,15 @@ void soucoupe() {
 	glTranslatef(0, 0, 0.2);
 
 	//Cône : Partie inférieure de la soucoupe
-	//glColor3ub(253, 57, 116); //Rose
-	glColor4ub(81, 183, 96, 255); //Vert
+	//glColor4ub(81, 183, 96, 255); //Vert
 	//glColor3ub(61, 139, 73); //Vert Pas mal
+	glColor4ub(81, 183, 96, 255); //Vert
+	gluQuadricTexture(params, GL_TRUE);
+	glEnable(GL_TEXTURE_2D);
+	glBindTexture(GL_TEXTURE_2D, grind);
 	gluCylinder(params, 1.7, 0.0, 0.2, 20, 1);
 	//halo lumineux
 	glTranslatef(0.0, 0.0, 0.2);
-
-	glEnable(GL_TEXTURE_2D);
 
 	glBindTexture(GL_TEXTURE_2D, textureHalo);
 

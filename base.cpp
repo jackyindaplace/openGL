@@ -9,7 +9,9 @@
 #include "Landmark/landmark.h"
 #include "Field/field.h"
 #include "Textures/sdlglutils.h"
+#include "Scenario/Step 1 - Flying Saucer/saucer.h"
 #include <math.h>
+#include "trackballcamera.h"
 
 //TODO: For resources allocated by the application, see if static textures are only loaded once or if its are loaded each time
 //int Mix_OpenAudio(int frequency, Uint16 format, int channels, int chunksize);
@@ -24,6 +26,8 @@
 //Thierry.SOBANSKI@ICL-LILLE.FR
 //Generer volume a partir de courbe de spleen
 
+
+
 int main(int argc, char **argv) {
 
 	int continuer = 1;
@@ -36,6 +40,8 @@ int main(int argc, char **argv) {
 	GLdouble rayon= 15;
 	Uint32 last_time = SDL_GetTicks();
 	Uint32 current_time, ellapsed_time;
+	TrackBallCamera * camera;
+
 	SDL_Init(SDL_INIT_VIDEO);
 	SDL_WM_SetCaption("OpenGL", NULL);
 	SDL_SetVideoMode(640, 480, 32, SDL_OPENGL);
@@ -44,11 +50,17 @@ int main(int argc, char **argv) {
 
 	glEnable(GL_TEXTURE_2D);
 
-	textureCaisse = loadTexture("Textures/caisse.tga", 0 );
-	textureGroundDust = loadTexture("Textures/sand03.tga", 0 );
+	textureCaisse = loadTexture("Textures/caisse.tga", false );
+	textureGroundDust = loadTexture("Textures/sand03.tga", false );
 
-	textureGrilleSoucoupe = loadTexture("Textures/soucoupe.bmp", 0 );
-	textureHalo = loadTexture("Textures/halo.bmp", 0 );
+	textureGrilleSoucoupe = loadTexture("Textures/soucoupe.bmp", false );
+	textureHalo = loadTexture("Textures/halo.bmp", false );
+	grind = loadTexture("Textures/grind.bmp",false);
+
+	earth = loadTexture("Textures/EarthMap.jpg", false);
+
+	camera = new TrackBallCamera();
+	camera->setScrollSensivity(0.1);
 
 	SDL_Event event;
 
@@ -68,56 +80,66 @@ int main(int argc, char **argv) {
 		last_time = current_time;
 
 		switch (event.type) {
-		case SDL_QUIT:
-			continuer = 0;
-//			Mix_FreeMusic(musique); //Libération de la musique
-//			Mix_CloseAudio(); //Fermeture de l'API
-			SDL_Quit(); //TODO: Bug when closing application
-			return EXIT_SUCCESS;
+			case SDL_QUIT:
+				continuer = 0;
+	//			Mix_FreeMusic(musique); //Libération de la musique
+	//			Mix_CloseAudio(); //Fermeture de l'API
+				delete camera;
+				SDL_Quit(); //TODO: Bug when closing application
+				return EXIT_SUCCESS;
 
-			break;
+				break;
 
-		case SDL_KEYDOWN:
+			case SDL_KEYDOWN:
 
-			switch (event.key.keysym.sym)
+				switch (event.key.keysym.sym)
 
-			{
+				{
 
-			case SDLK_UP:
-				angleCubeX++;
-				if (angleCubeX == 360) angleCubeX = 0;
+					case SDLK_UP:
+						angleCubeX++;
+						if (angleCubeX == 360) angleCubeX = 0;
 
+							break;
+					case SDLK_DOWN:
+						angleCubeX--;
+						if (angleCubeX < 0) angleCubeX = 360;
+						break;
+					case SDLK_LEFT:
+						//if ((event.key.keysym.mod & KMOD_LSHIFT) == KMOD_LSHIFT)
+		//				{
+		//					angle1++;
+		//					if (angle1 > 90)
+		//					angle1 = 90;
+		//				}
+		//				else
+		//				{
+		//					angle2++;
+		//					if (angle2 > 90)
+		//					angle2 = 90;
+		//				}
+						angleCubeY++;
+						if (angleCubeY == 360) angleCubeY = 0;
+						break;
+
+					case SDLK_RIGHT:
+						angleCubeY--;
+						if (angleCubeY < 0) angleCubeY = 360;
+						break;
+
+					default :
+					   camera->OnKeyboard(event.key);
 					break;
-			case SDLK_DOWN:
-				angleCubeX--;
-				if (angleCubeX < 0) angleCubeX = 360;
-				break;
-			case SDLK_LEFT:
-				//if ((event.key.keysym.mod & KMOD_LSHIFT) == KMOD_LSHIFT)
-//				{
-//					angle1++;
-//					if (angle1 > 90)
-//					angle1 = 90;
-//				}
-//				else
-//				{
-//					angle2++;
-//					if (angle2 > 90)
-//					angle2 = 90;
-//				}
-				angleCubeY++;
-				if (angleCubeY == 360) angleCubeY = 0;
+				}
 				break;
 
-			case SDLK_RIGHT:
-				angleCubeY--;
-				if (angleCubeY < 0) angleCubeY = 360;
+				case SDL_MOUSEMOTION:
+				       camera->OnMouseMotion(event.motion);
 				break;
-
-			default:
-			break;
-			}
-			break;
+				case SDL_MOUSEBUTTONUP:
+				case SDL_MOUSEBUTTONDOWN:
+				       camera->OnMouseButton(event.button);
+				break;
 		}
 
 			glMatrixMode(GL_PROJECTION);
@@ -133,8 +155,9 @@ int main(int argc, char **argv) {
 			if (tetaCam > 360) tetaCam = 0;
 			printf("tetacam = %d \n",tetaCam);
 			printf( "hello world\n" );
-			gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
+			//gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
 			//gluLookAt(5,2,5, 0,2,0, 0,1,0);
+			camera->look();
 
 //*************//MAIN VIDEO GAME DRAWING**********************************************
 
@@ -156,7 +179,8 @@ int main(int argc, char **argv) {
 			if (ellapsed_time < 10)   SDL_Delay(10 - ellapsed_time);
 
 			glLoadIdentity();
-			gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
+			//gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
+			camera->look();
 
 			GLUquadric* params;
 			params = gluNewQuadric();
@@ -171,10 +195,21 @@ int main(int argc, char **argv) {
 			gluDeleteQuadric(params);
 
 			glLoadIdentity();
-			gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
+			//gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
+			camera->look();
 			glTranslated(4,9,0);
 			glRotated(-90,1,0,0);
 			soucoupe();
+
+			glRotated(90,1,0,0);
+			glTranslated(-6,-7,0);
+
+			glEnable(GL_TEXTURE_2D);
+		    gluQuadricTexture(params,GL_TRUE);
+		    glBindTexture(GL_TEXTURE_2D,earth);
+		    gluSphere(params,1,20,20);
+		    gluDeleteQuadric(params);
+		    //glDisable(GL_TEXTURE_2D);
 
 
 			//DrawAxes(0.0,0.0,0.0);
