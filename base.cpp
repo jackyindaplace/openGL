@@ -11,7 +11,10 @@
 #include "Textures/sdlglutils.h"
 #include "Scenario/Step 1 - Flying Saucer/saucer.h"
 #include <math.h>
-#include "trackballcamera.h"
+#include "Camera/trackballcamera.h"
+#include "Camera/freeflycamera.h"
+#include <iostream>
+using namespace std;
 
 //TODO: For resources allocated by the application, see if static textures are only loaded once or if its are loaded each time
 //int Mix_OpenAudio(int frequency, Uint16 format, int channels, int chunksize);
@@ -40,13 +43,18 @@ int main(int argc, char **argv) {
 	GLdouble rayon= 15;
 	Uint32 last_time = SDL_GetTicks();
 	Uint32 current_time, ellapsed_time;
-	TrackBallCamera * camera;
+//	TrackBallCamera * camera;
+	FreeFlyCamera * camera;
+
+	SDL_Event event;
 
 	SDL_Init(SDL_INIT_VIDEO);
 	SDL_WM_SetCaption("OpenGL", NULL);
 	SDL_SetVideoMode(640, 480, 32, SDL_OPENGL);
 
 	SDL_EnableKeyRepeat(10,10);
+
+	SDL_EnableUNICODE(1);
 
 	glEnable(GL_TEXTURE_2D);
 
@@ -59,10 +67,10 @@ int main(int argc, char **argv) {
 
 	earth = loadTexture("Textures/EarthMap.jpg", false);
 
-	camera = new TrackBallCamera();
-	camera->setScrollSensivity(0.1);
+//	camera = new TrackBallCamera();
+//	camera->setScrollSensivity(0.1);
 
-	SDL_Event event;
+	camera = new FreeFlyCamera(Vector3D(0,0,2));
 
 //	if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024)
 //			== -1) //Initialisation de l'API Mixer
@@ -96,41 +104,48 @@ int main(int argc, char **argv) {
 
 				{
 
-					case SDLK_UP:
-						angleCubeX++;
-						if (angleCubeX == 360) angleCubeX = 0;
 
-							break;
-					case SDLK_DOWN:
-						angleCubeX--;
-						if (angleCubeX < 0) angleCubeX = 360;
-						break;
-					case SDLK_LEFT:
-						//if ((event.key.keysym.mod & KMOD_LSHIFT) == KMOD_LSHIFT)
-		//				{
-		//					angle1++;
-		//					if (angle1 > 90)
-		//					angle1 = 90;
-		//				}
-		//				else
-		//				{
-		//					angle2++;
-		//					if (angle2 > 90)
-		//					angle2 = 90;
-		//				}
-						angleCubeY++;
-						if (angleCubeY == 360) angleCubeY = 0;
-						break;
 
-					case SDLK_RIGHT:
-						angleCubeY--;
-						if (angleCubeY < 0) angleCubeY = 360;
-						break;
+//					case SDLK_UP:
+////						angleCubeX++;
+////						if (angleCubeX == 360) angleCubeX = 0;
+//
+//							break;
+//					case SDLK_DOWN:
+////						angleCubeX--;
+////						if (angleCubeX < 0) angleCubeX = 360;
+//						break;
+//					case SDLK_LEFT:
+//						//if ((event.key.keysym.mod & KMOD_LSHIFT) == KMOD_LSHIFT)
+//		//				{
+//		//					angle1++;
+//		//					if (angle1 > 90)
+//		//					angle1 = 90;
+//		//				}
+//		//				else
+//		//				{
+//		//					angle2++;
+//		//					if (angle2 > 90)
+//		//					angle2 = 90;
+//		//				}
+//						angleCubeY++;
+//						if (angleCubeY == 360) angleCubeY = 0;
+//						break;
+
+//					case SDLK_RIGHT:
+//						angleCubeY--;
+//						if (angleCubeY < 0) angleCubeY = 360;
+//						break;
 
 					default :
+						std::cout << "key pushed unicode:" << event.key.keysym.unicode << "\n";
 					   camera->OnKeyboard(event.key);
 					break;
 				}
+				break;
+
+				case SDL_KEYUP:
+				camera->OnKeyboard(event.key);
 				break;
 
 				case SDL_MOUSEMOTION:
@@ -153,8 +168,16 @@ int main(int argc, char **argv) {
 
 			tetaCam += 0.05 * ellapsed_time;
 			if (tetaCam > 360) tetaCam = 0;
-			printf("tetacam = %d \n",tetaCam);
-			printf( "hello world\n" );
+//			cout << "tetacam =" << tetaCam <<endl;
+//			cout << "hello world" << endl;
+
+//			cout << "freefly cam angle phi : " << camera->_phi << endl;
+//			cout << "freefly cam angle teta : " << camera->_theta << endl;
+//			cout << "freefly cam left : " << camera->_left << endl;
+//			cout << "freefly cam keystates : " << camera->_keystates << endl;
+
+			camera->animate(ellapsed_time);
+
 			//gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
 			//gluLookAt(5,2,5, 0,2,0, 0,1,0);
 			camera->look();
