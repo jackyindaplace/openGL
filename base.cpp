@@ -4,6 +4,7 @@
 #include <GL/freeglut.h>
 #include <SDL/SDL.h>
 #include <SDL/SDL_mixer.h>
+#include <SDL/SDL_mouse.h>
 #include "declarations.h"
 #include <GL/glext.h>
 #include "Landmark/landmark.h"
@@ -11,10 +12,10 @@
 #include "Textures/sdlglutils.h"
 #include "Scenario/Step 1 - Flying Saucer/saucer.h"
 #include <math.h>
-#include "Camera/trackballcamera.h"
 #include "Camera/freeflycamera.h"
 #include <iostream>
 using namespace std;
+
 
 //TODO: For resources allocated by the application, see if static textures are only loaded once or if its are loaded each time
 //int Mix_OpenAudio(int frequency, Uint16 format, int channels, int chunksize);
@@ -43,7 +44,6 @@ int main(int argc, char **argv) {
 	GLdouble rayon= 15;
 	Uint32 last_time = SDL_GetTicks();
 	Uint32 current_time, ellapsed_time;
-//	TrackBallCamera * camera;
 	FreeFlyCamera * camera;
 
 	SDL_Event event;
@@ -53,8 +53,6 @@ int main(int argc, char **argv) {
 	SDL_SetVideoMode(640, 480, 32, SDL_OPENGL);
 
 	SDL_EnableKeyRepeat(10,10);
-
-	SDL_EnableUNICODE(1);
 
 	glEnable(GL_TEXTURE_2D);
 
@@ -66,9 +64,6 @@ int main(int argc, char **argv) {
 	grind = loadTexture("Textures/grind.bmp",false);
 
 	earth = loadTexture("Textures/EarthMap.jpg", false);
-
-//	camera = new TrackBallCamera();
-//	camera->setScrollSensivity(0.1);
 
 	camera = new FreeFlyCamera(Vector3D(0,0,2));
 
@@ -104,8 +99,14 @@ int main(int argc, char **argv) {
 
 				{
 
-
-
+					case SDLK_ESCAPE:
+						continuer = 0;
+			//			Mix_FreeMusic(musique); //Libération de la musique
+			//			Mix_CloseAudio(); //Fermeture de l'API
+						delete camera;
+						SDL_Quit(); //TODO: Bug when closing application
+						return EXIT_SUCCESS;
+					break;
 //					case SDLK_UP:
 ////						angleCubeX++;
 ////						if (angleCubeX == 360) angleCubeX = 0;
@@ -138,7 +139,7 @@ int main(int argc, char **argv) {
 //						break;
 
 					default :
-						std::cout << "key pushed unicode:" << event.key.keysym.unicode << "\n";
+						//std::cout << "key pushed unicode:" << event.key.keysym.unicode << "\n";
 					   camera->OnKeyboard(event.key);
 					break;
 				}
@@ -168,18 +169,9 @@ int main(int argc, char **argv) {
 
 			tetaCam += 0.05 * ellapsed_time;
 			if (tetaCam > 360) tetaCam = 0;
-//			cout << "tetacam =" << tetaCam <<endl;
-//			cout << "hello world" << endl;
-
-//			cout << "freefly cam angle phi : " << camera->_phi << endl;
-//			cout << "freefly cam angle teta : " << camera->_theta << endl;
-//			cout << "freefly cam left : " << camera->_left << endl;
-//			cout << "freefly cam keystates : " << camera->_keystates << endl;
 
 			camera->animate(ellapsed_time);
 
-			//gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
-			//gluLookAt(5,2,5, 0,2,0, 0,1,0);
 			camera->look();
 
 //*************//MAIN VIDEO GAME DRAWING**********************************************
@@ -187,7 +179,7 @@ int main(int argc, char **argv) {
 			glEnable(GL_TEXTURE_2D);
 
 			//Create Ground
-			groundDust(-20, 20, 0, -10, 10);
+			groundDust(-10, 10, 0, -10, 10);
 
 			//Create rotating cube
 			angleCubeY += 0.05 * ellapsed_time;
@@ -225,7 +217,7 @@ int main(int argc, char **argv) {
 			soucoupe();
 
 			glRotated(90,1,0,0);
-			glTranslated(-6,-7,0);
+			glTranslated(-10,-9,-10);
 
 			glEnable(GL_TEXTURE_2D);
 		    gluQuadricTexture(params,GL_TRUE);

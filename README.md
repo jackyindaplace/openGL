@@ -1,7 +1,7 @@
 # OpenGL Project
 
 /////////OVERVIEW////////////
-C/C++ project using openGL and SDL libraries. I used Eclipse CDT. 
+C/C++ project using openGL 1.2 and SDL 1.2.  I used Eclipse CDT. 
 
 Main goal is to escape in the UFO by jumping over the boxes.
 

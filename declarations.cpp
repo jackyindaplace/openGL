@@ -7,6 +7,18 @@
 
 #include <GL/freeglut.h>
 #include <SDL/SDL_mixer.h>
+#include "declarations.h"
+
+//#define xTaille 500;
+//#define zTaille 500;
+//#define yPositionTaille 4;
+
+//	//Stocking y position of the field in a 2D table for each position (x,z).
+	extern const int  xTaille = 500;
+	extern const int  zTaille = 500;
+	extern const int  yPositionTaille = 4;
+//	//tableau[x][z][0] = -x et -z; tableau[x][z][1] = -x et z;  tableau[x][z][2] = x et -z; tableau[x][z][3] = x et z;
+	float tableau[xTaille][zTaille][yPositionTaille];
 
 // Textures declarations
 

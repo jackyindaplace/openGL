@@ -6,6 +6,22 @@
 // */
 //
 #include "../declarations.h"
+#include <cstdlib>
+#include <ctime>
+#include <iostream>
+using namespace std;
+#include <time.h>
+#include <random>
+#include <bits/random.h>
+#include <cmath>
+
+//Stocking y position of the field in a 2D table for each position (x,z).
+//	int const xTaille(500);
+//	int const zTaille(500);
+//	int const yPositionTaille(4);
+	//tableau[x][z][0] = -x et -z; tableau[x][z][1] = -x et z;  tableau[x][z][2] = x et -z; tableau[x][z][3] = x et z;
+//	float tableau[xTaille][zTaille][yPositionTaille];
+
 //
 //
 //void declareChunck(float xstart, float xend, float ystart, float yend, float zstart, float zend)
@@ -48,21 +64,134 @@
 //}
 //
 //
+
+float createRandom(float LO, float HI){
+
+	float result = LO + static_cast <float> (rand()) /( static_cast <float> (RAND_MAX/(HI-LO)));
+
+//	std::cout << "RandomFunction" << rand() << "\n";
+//	fflush(stdout);
+
+	return result;
+}
+
+void memorizeYPosition(int x, float y, int z){
+	//tableau[x][z][0] = -x et -z; tableau[x][z][1] = -x et z;  tableau[x][z][2] = x et -z; tableau[x][z][3] = x et z;
+	int yPositionInTable = 0;
+	bool xIsNeg = x<0;
+	bool zIsNeg = z<0;
+
+	if (xIsNeg && zIsNeg) yPositionInTable = 0;
+	if (xIsNeg && !zIsNeg) yPositionInTable = 1;
+	if (!xIsNeg && zIsNeg) yPositionInTable = 2;
+	if (!xIsNeg && !zIsNeg) yPositionInTable = 3;
+
+
+	tableau[abs(x)][abs(z)][yPositionInTable] = y;
+//	tableau[1][1][1] = y;
+
+}
+
+float retrieveYPosition(int x,int z){
+	//tableau[x][z][0] = -x et -z; tableau[x][z][1] = -x et z;  tableau[x][z][2] = x et -z; tableau[x][z][3] = x et z;
+	int yPositionInTable = 0;
+	bool xIsNeg = x<0;
+	bool zIsNeg = z<0;
+
+	if (xIsNeg && zIsNeg) yPositionInTable = 0;
+	if (xIsNeg && !zIsNeg) yPositionInTable = 1;
+	if (!xIsNeg && zIsNeg) yPositionInTable = 2;
+	if (!xIsNeg && !zIsNeg) yPositionInTable = 3;
+
+	return tableau[abs(x)][abs(z)][yPositionInTable];
+//	return tableau[1][1][1];
+}
+
 void groundDust(float xmin, float xmax, float y, float zmin, float zmax){
+	//Using a fixed number to generate random values which will not change when scene is redisplayed. So the field won't change.
+	srand (static_cast <unsigned> (1476764538));
 
 	glBindTexture(GL_TEXTURE_2D, textureGroundDust);
 
+			for(int j=zmin; j<=zmax; j=j+2){
+//				glColor3ub(255, 0, 0);
 				glBegin(GL_QUADS);
-				//glColor3ub(255, 255, 255); //White Color to See Texture is the right color
-				glTexCoord2f(xmin, zmin);
-				glVertex3f(xmin, y, zmin);
-				glTexCoord2f(xmin, zmax);
-				glVertex3f(xmin, y, zmax);
-				glTexCoord2f(xmax, zmax);
-				glVertex3f(xmax, y, zmax);
-				glTexCoord2f(xmax, zmin);
-				glVertex3f(xmax, y, zmin);
+					glTexCoord2f(xmin, j);
+					glVertex3f(xmin,0 , j);
+					memorizeYPosition(xmin,0,j);
+					glTexCoord2f(xmin, j+2);
+					glVertex3f(xmin, 0, j+2);
+					memorizeYPosition(xmin,0,j+2);
+					if(j==zmax||j==zmax-1){
+						glTexCoord2f(xmin+2, j+2);
+						glVertex3f(xmin+2, 0, j+2);
+						memorizeYPosition(xmin+2,0,j+2);
+					}
+					else{
+						y = createRandom(0, 2);
+						glTexCoord2f(xmin+2, j+2);
+						glVertex3f(xmin+2, y, j+2);
+						memorizeYPosition(xmin+2,y,j+2);
+					}
+
+					if(j==zmin){
+						glTexCoord2f(xmin+2, j);
+						glVertex3f(xmin+2, 0, j);
+						memorizeYPosition(xmin+2,0,j);
+					}
+					else{
+						glTexCoord2f(xmin+2, j);
+						glVertex3f(xmin+2, retrieveYPosition(xmin+2,j), j);
+					}
 				glEnd();
+
+				glBegin(GL_QUAD_STRIP);
+				for(int i=xmin+2; i<=xmax; i=i+2){
+					if(j==zmin){
+						glTexCoord2f(i, j);
+						glVertex3f(i,0, j);
+						memorizeYPosition(i,0,j);
+					}
+					else{
+						glTexCoord2f(i, j);
+						glVertex3f(i,retrieveYPosition(i,j), j);
+					}
+					if(i==xmin+2){
+						glTexCoord2f(i, j+2);
+						glVertex3f(i,retrieveYPosition(i,j+2), j+2);
+					}
+					else if((i==xmax||i==xmax-1)||(j==zmax||j==zmax-1)){
+						glTexCoord2f(i, j+2);
+						glVertex3f(i,0, j+2);
+						memorizeYPosition(i, 0, j+2);
+					}
+					else{
+						y = createRandom(0, 2);
+						glTexCoord2f(i, j+2);
+						glVertex3f(i,y, j+2);
+						memorizeYPosition(i, y, j+2);
+					}
+//						cout << 'retrievePosition i j+2' << retrieveYPosition(i,j+2) << endl;
+				}
+				glEnd();
+
+			}
+
+//				glColor3ub(255, 0, 0);
+//				glVertex3f(xmin+1,y, zmin+1);
+//				glVertex3f(xmin+1,y, zmin+2);
+
+
+//				glBegin(GL_QUADS);
+//				glTexCoord2f(xmin, zmin+2);
+//				glVertex3f(xmin, 3.5, zmin+2);
+//				glTexCoord2f(xmin, zmax);
+//				glVertex3f(xmin, 0, zmax);
+//				glTexCoord2f(xmax, zmax);
+//				glVertex3f(xmax, 0, zmax);
+//				glTexCoord2f(xmax, zmin+2);
+//				glVertex3f(xmax, 1.5, zmin+2);
+//				glEnd();
 }
 //
 //	//declareChunck(xstart, xend, ystart, yend, zstart, zend);
@@ -126,6 +255,7 @@ void groundDust(float xmin, float xmax, float y, float zmin, float zmax){
 //
 void cube(double x, double y, double z) {
 
+	glColor3ub(255,255,255);
 	glBindTexture(GL_TEXTURE_2D, textureCaisse);
 
 	glBegin(GL_QUADS);

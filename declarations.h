@@ -8,6 +8,15 @@
 #include <GL/freeglut.h>
 #include <SDL/SDL_mixer.h>
 
+//	#define xTaille 500;
+//	#define zTaille 500;
+//	#define yPositionTaille 4;
+
+
+//	extern const int  zTaille;
+//	extern const int  yPositionTaille;
+	extern float tableau[500][500][4];
+
 // Textures declarations
 
 	extern GLuint textureCaisse;
