@@ -20,11 +20,20 @@
 // Textures declarations
 
 	extern GLuint textureCaisse;
-	extern GLuint textureGroundDust;
+	extern GLuint textureGroundDust40;
+	extern GLuint textureGroundDust41;
+	extern GLuint textureGround;
+	extern GLuint textureLava;
 	extern GLuint textureGrilleSoucoupe;
 	extern GLuint textureHalo;
+	extern GLuint textureRock;
+	extern GLuint textureGrass;
 	extern GLuint earth;
 	extern GLuint grind;
+	extern GLuint eau;
+	extern GLuint fence;
+	extern GLuint fenceTag;
+	extern GLuint transparent;
 
 //Application Parameters Main Declarations
 

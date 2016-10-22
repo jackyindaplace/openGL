@@ -47,7 +47,7 @@ void soucoupe() {
 	glTranslatef(0, 0, -0.55);
 
 	//Cylindre du milieu de la soucoupe.
-	glColor3ub(255, 255, 255); //Noir
+	glColor3ub(255, 255, 255);
 	glEnable(GL_TEXTURE_2D);
 	glBindTexture(GL_TEXTURE_2D, textureGrilleSoucoupe);
 

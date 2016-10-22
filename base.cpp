@@ -6,6 +6,8 @@
 #include <SDL/SDL_mixer.h>
 #include <SDL/SDL_mouse.h>
 #include "declarations.h"
+#include "Objects/objects.h"
+#include "Textures/initialize.h"
 #include <GL/glext.h>
 #include "Landmark/landmark.h"
 #include "Field/field.h"
@@ -35,8 +37,8 @@ using namespace std;
 int main(int argc, char **argv) {
 
 	int continuer = 1;
-	double angleCubeX = 0;
-	double angleCubeY = 0;
+	double angleRotationX = 0;
+	double angleRotationY = 0;
 	GLdouble xcam = -20;
 	GLdouble ycam = 4;
 	GLdouble zcam = -10;
@@ -56,14 +58,7 @@ int main(int argc, char **argv) {
 
 	glEnable(GL_TEXTURE_2D);
 
-	textureCaisse = loadTexture("Textures/caisse.tga", false );
-	textureGroundDust = loadTexture("Textures/sand03.tga", false );
-
-	textureGrilleSoucoupe = loadTexture("Textures/soucoupe.bmp", false );
-	textureHalo = loadTexture("Textures/halo.bmp", false );
-	grind = loadTexture("Textures/grind.bmp",false);
-
-	earth = loadTexture("Textures/EarthMap.jpg", false);
+	initializeTextures();
 
 	camera = new FreeFlyCamera(Vector3D(0,0,2));
 
@@ -108,13 +103,13 @@ int main(int argc, char **argv) {
 						return EXIT_SUCCESS;
 					break;
 //					case SDLK_UP:
-////						angleCubeX++;
-////						if (angleCubeX == 360) angleCubeX = 0;
+////						angleRotationX++;
+////						if (angleRotationX == 360) angleRotationX = 0;
 //
 //							break;
 //					case SDLK_DOWN:
-////						angleCubeX--;
-////						if (angleCubeX < 0) angleCubeX = 360;
+////						angleRotationX--;
+////						if (angleRotationX < 0) angleRotationX = 360;
 //						break;
 //					case SDLK_LEFT:
 //						//if ((event.key.keysym.mod & KMOD_LSHIFT) == KMOD_LSHIFT)
@@ -129,13 +124,13 @@ int main(int argc, char **argv) {
 //		//					if (angle2 > 90)
 //		//					angle2 = 90;
 //		//				}
-//						angleCubeY++;
-//						if (angleCubeY == 360) angleCubeY = 0;
+//						angleRotationY++;
+//						if (angleRotationY == 360) angleRotationY = 0;
 //						break;
 
 //					case SDLK_RIGHT:
-//						angleCubeY--;
-//						if (angleCubeY < 0) angleCubeY = 360;
+//						angleRotationY--;
+//						if (angleRotationY < 0) angleRotationY = 360;
 //						break;
 
 					default :
@@ -178,54 +173,77 @@ int main(int argc, char **argv) {
 
 			glEnable(GL_TEXTURE_2D);
 
+			//TestGround
+//			ground(-30, -14, 0, 0, -30, -14, 2,textureGroundDust40, false, 0);
+
 			//Create Ground
-			groundDust(-10, 10, 0, -10, 10);
+			ground(-10, 10, 0, 1, -10, 10, 2,textureGroundDust40, 1, false, 0);
+			ground(10, 20, 0, 1, -10, 10, 2,textureGroundDust40, 1, false, 0);
+			ground(-30, -6, 4, 9, 10, 72, 2,textureRock, 10, false, 0);
+			ground(-30, -6, 7, 12, 0, 10, 2,textureRock, 5, false, 0);
+			for(int k=20;k<60;k=k+6){
+				ground(-6,0, k*0.1, k*0.2, k, k+6, 2,textureRock, 1,true, k-18);
+			}
+			ground(-6,0, 0, 2, 10, 14, 2,textureRock, 1,false, 0);
+			ground(-6,0, -2, 2, 10, 20, 2,textureGroundDust40, 1,false,0);
+			ground(0, 8, -1, 3, 5, 11, 2,textureRock, 1, false,0);
+			ground(-20,-10, 5, 10, -10, 10, 2,textureRock, 4, false,0);
+			ground(20, 40, 0, 0, -10, 10, 2,textureGroundDust40, 1, false,0);
+//							ground(10, 20, -2, 0, 10, 20, 2,eau, 1, false,0);
+			ground(0, 40, 0, 1, 50, 72, 2,textureGrass, 2, false,0);
+			ground(40, 60, 7, 10, 40, 50, 2,textureRock, 2, false,0);
 
-			//Create rotating cube
-			angleCubeY += 0.05 * ellapsed_time;
-			angleCubeX += 0.05 * ellapsed_time;
+			//Create passage in the rock
+//			ground(40, 60, 0, 4, -10, 50, 2, textureRock, 2, false, 0);
 
-			glTranslated(0,2,0);
-			glRotated(angleCubeY,0,1,0);
-			glRotated(angleCubeX,1,0,0);
-			cube(0,0,0);
+			//Create water container (ground)
+			water(0, 10, 40, 2, textureGroundDust40);
+			//Fill with water
+//			glEnable(GL_BLEND);
+//			glDepthMask(GL_FALSE);
+//			glBlendFunc(GL_SRC_ALPHA, GL_ONE);
+
+			glTranslated(20,0,30);
+			glRotated(180,1,0,0);
+			glColor4f(0.0f,0.0f,1.0f,0.5);
+			drawHalfSphere(24, 24, 19.3);
+			glRotated(180,1,0,0);
+			glTranslated(-20,0,-30);
+
+
+
+
+			//Create a bunker
+			bunker(40, 0, 50, 20, 10);
+
+			//Create cube
+			cube(10,1,60);
+			cube(12.1,1,60);
+			cube(11.05,1,62);
+			cube(11.05,3,61);
+
+			//Create rotating earth
+			angleRotationY += 0.05 * ellapsed_time;
+			angleRotationX += 0.05 * ellapsed_time;
+			drawEarth(angleRotationX,angleRotationY);
 
 			ellapsed_time = SDL_GetTicks() - current_time;
 			if (ellapsed_time < 10)   SDL_Delay(10 - ellapsed_time);
 
-			glLoadIdentity();
+//			glLoadIdentity();
 			//gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
-			camera->look();
+//			camera->look();
 
-			GLUquadric* params;
-			params = gluNewQuadric();
-			glDisable(GL_TEXTURE_2D);
-			glColor3ub(255, 255, 255);
-			glTranslated(2,2,2);
-			gluSphere(params,0.5,20,20);
-			glTranslated(0,1,0);
-			gluSphere(params,0.5,20,20);
-			glTranslated(0,1,0);
-			gluSphere(params,0.5,20,20);
-			gluDeleteQuadric(params);
-
-			glLoadIdentity();
-			//gluLookAt(rayon*cos(tetaCam * 2 * pi / 360), ycam, rayon*sin(tetaCam * 2 * pi / 360) , 0,2,0,0,1,0);
-			camera->look();
+			//Draw UFO engine
 			glTranslated(4,9,0);
 			glRotated(-90,1,0,0);
-			soucoupe();
-
+				soucoupe();
 			glRotated(90,1,0,0);
-			glTranslated(-10,-9,-10);
+			glTranslated(-4,-9,0);
 
-			glEnable(GL_TEXTURE_2D);
-		    gluQuadricTexture(params,GL_TRUE);
-		    glBindTexture(GL_TEXTURE_2D,earth);
-		    gluSphere(params,1,20,20);
-		    gluDeleteQuadric(params);
-		    //glDisable(GL_TEXTURE_2D);
-
+			/*Draw fence - no trespassing violators.
+			Transparency elements should be drawn at the end.*/
+			cloture(-7, 0, 3, 47, 10);
 
 			//DrawAxes(0.0,0.0,0.0);
 			//dessinerRepere(2);

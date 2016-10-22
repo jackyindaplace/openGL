@@ -23,11 +23,20 @@
 // Textures declarations
 
 	GLuint textureCaisse;
-	GLuint textureGroundDust;
+	GLuint textureGroundDust40;
+	GLuint textureGroundDust41;
+	GLuint textureGround;
+	GLuint textureLava;
 	GLuint textureGrilleSoucoupe;
 	GLuint textureHalo;
+	GLuint textureRock;
+	GLuint textureGrass;
 	GLuint earth;
 	GLuint grind;
+	GLuint eau;
+	GLuint fence;
+	GLuint fenceTag;
+	GLuint transparent;
 
 //Application Parameters Main Declarations
 

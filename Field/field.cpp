@@ -6,24 +6,10 @@
 // */
 //
 #include "../declarations.h"
-#include <cstdlib>
-#include <ctime>
 #include <iostream>
 using namespace std;
-#include <time.h>
-#include <random>
-#include <bits/random.h>
 #include <cmath>
 
-//Stocking y position of the field in a 2D table for each position (x,z).
-//	int const xTaille(500);
-//	int const zTaille(500);
-//	int const yPositionTaille(4);
-	//tableau[x][z][0] = -x et -z; tableau[x][z][1] = -x et z;  tableau[x][z][2] = x et -z; tableau[x][z][3] = x et z;
-//	float tableau[xTaille][zTaille][yPositionTaille];
-
-//
-//
 //void declareChunck(float xstart, float xend, float ystart, float yend, float zstart, float zend)
 //{
 //	chunck[nbchuncksdeclares][0] = xstart;
@@ -68,10 +54,6 @@ using namespace std;
 float createRandom(float LO, float HI){
 
 	float result = LO + static_cast <float> (rand()) /( static_cast <float> (RAND_MAX/(HI-LO)));
-
-//	std::cout << "RandomFunction" << rand() << "\n";
-//	fflush(stdout);
-
 	return result;
 }
 
@@ -107,92 +89,210 @@ float retrieveYPosition(int x,int z){
 //	return tableau[1][1][1];
 }
 
-void groundDust(float xmin, float xmax, float y, float zmin, float zmax){
+
+void flatGround(float width){
+
+	glEnable(GL_TEXTURE_2D);
+	glBindTexture(GL_TEXTURE_2D, textureGroundDust40);
+
+	glBegin(GL_QUADS);
+			glTexCoord2d(0.0, 0.0);
+			glVertex3d(0,0,0);
+			glTexCoord2d(0.0, 1.0);
+			glVertex3d(0, 0, width+2);
+			glTexCoord2d(1.0, 1.0);
+			glVertex3d(width, 0, width+2);
+			glTexCoord2d(1.0, 0.0);
+			glVertex3d(width, 0, 0);
+	glEnd();
+
+}
+
+/*	Function used to draw the field. interval is used to create more or less relief.
+ *
+ */
+void ground(float xmin, float xmax, float ymin, float ymax, float zmin, float zmax, int interval, GLuint texture, int scaleTexture, bool changeSRand, int randomize){
 	//Using a fixed number to generate random values which will not change when scene is redisplayed. So the field won't change.
 	srand (static_cast <unsigned> (1476764538));
+	cout <<rand()<<endl;
+	cout <<rand()<<endl;
+	cout <<rand()<<endl;
+	cout <<rand()<<endl;
 
-	glBindTexture(GL_TEXTURE_2D, textureGroundDust);
+	if(changeSRand){
+		for(int l=0; l<randomize; l++){
+			rand();
+		}
+	}
 
-			for(int j=zmin; j<=zmax; j=j+2){
-//				glColor3ub(255, 0, 0);
+
+	float y;
+
+	glBindTexture(GL_TEXTURE_2D, texture);
+
+			for(int j=zmin; j<zmax; j=j+interval){
 				glBegin(GL_QUADS);
-					glTexCoord2f(xmin, j);
+					glTexCoord2f(0, scaleTexture*((j-zmin)/(zmax-zmin)));
+//					cout << "#1(0,0): "<< endl;
 					glVertex3f(xmin,0 , j);
 					memorizeYPosition(xmin,0,j);
-					glTexCoord2f(xmin, j+2);
-					glVertex3f(xmin, 0, j+2);
-					memorizeYPosition(xmin,0,j+2);
-					if(j==zmax||j==zmax-1){
-						glTexCoord2f(xmin+2, j+2);
-						glVertex3f(xmin+2, 0, j+2);
-						memorizeYPosition(xmin+2,0,j+2);
+//					glTexCoord2f(0, 1);
+					glTexCoord2f(0, scaleTexture*((j+interval-zmin)/(zmax-zmin)));
+//					cout << "#2(0,1): 0,  " <<  (j+interval-zmin)/(zmax-zmin) << endl;
+					glVertex3f(xmin, 0, j+interval);
+					memorizeYPosition(xmin,0,j+interval);
+					if(j==zmax-2){
+//						glTexCoord2f(1, 1);
+						glTexCoord2f(scaleTexture*((xmin+interval-xmin)/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
+//						cout << "#3(1,1): " << (xmin+interval-xmin)/(xmax-(xmin)) << "**" << (j+interval-zmin)/(zmax-zmin) << endl;
+						glVertex3f(xmin+interval, 0, j+interval);
+						memorizeYPosition(xmin+interval,0,j+interval);
 					}
 					else{
-						y = createRandom(0, 2);
-						glTexCoord2f(xmin+2, j+2);
-						glVertex3f(xmin+2, y, j+2);
-						memorizeYPosition(xmin+2,y,j+2);
+						y = createRandom(ymin, ymax);
+//						glTexCoord2f(1, 1);
+						glTexCoord2f(scaleTexture*((xmin+interval-xmin)/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
+//						cout << "#3(1,1): " << (xmin+interval-xmin)/(xmax-(xmin)) << "**" << (j+interval-zmin)/(zmax-zmin) << endl;
+						glVertex3f(xmin+interval, y, j+interval);
+						memorizeYPosition(xmin+interval,y,j+interval);
 					}
 
 					if(j==zmin){
-						glTexCoord2f(xmin+2, j);
-						glVertex3f(xmin+2, 0, j);
-						memorizeYPosition(xmin+2,0,j);
+//						glTexCoord2f(1, 0);
+						glTexCoord2f(scaleTexture*((xmin+interval-xmin)/(xmax-(xmin))), scaleTexture*((j-zmin)/(zmax -zmin)));
+//						cout << "#4(1,0): " << (xmin+interval-xmin)/(xmax-(xmin)) << "**" <<  (j-zmin)/(zmax-zmin) << endl;
+						glVertex3f(xmin+interval, 0, j);
+						memorizeYPosition(xmin+interval,0,j);
 					}
 					else{
-						glTexCoord2f(xmin+2, j);
-						glVertex3f(xmin+2, retrieveYPosition(xmin+2,j), j);
+//						glTexCoord2f(1, 0);
+						glTexCoord2f(scaleTexture*((xmin+interval-xmin)/(xmax-(xmin))), scaleTexture*((j-zmin)/(zmax -zmin)));
+//						cout << "#4(1,0): " << (xmin+interval-xmin)/(xmax-(xmin)) << "**" <<  (j-zmin)/(zmax-zmin) << endl;
+						glVertex3f(xmin+interval, retrieveYPosition(xmin+interval,j), j);
 					}
 				glEnd();
 
 				glBegin(GL_QUAD_STRIP);
-				for(int i=xmin+2; i<=xmax; i=i+2){
+				for(int i=xmin+interval; i<=xmax; i=i+interval){
 					if(j==zmin){
-						glTexCoord2f(i, j);
+						glTexCoord2f(scaleTexture*((i-(xmin))/(xmax-(xmin))), scaleTexture*((j-zmin)/(zmax -zmin)));
 						glVertex3f(i,0, j);
 						memorizeYPosition(i,0,j);
 					}
 					else{
-						glTexCoord2f(i, j);
+						glTexCoord2f(scaleTexture*((i-(xmin))/(xmax-(xmin))), scaleTexture*((j-zmin)/(zmax -zmin)));
 						glVertex3f(i,retrieveYPosition(i,j), j);
 					}
-					if(i==xmin+2){
-						glTexCoord2f(i, j+2);
-						glVertex3f(i,retrieveYPosition(i,j+2), j+2);
+					if(i==xmin+interval){
+						glTexCoord2f(scaleTexture*((i-(xmin))/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
+						glVertex3f(i,retrieveYPosition(i,j+interval), j+interval);
 					}
-					else if((i==xmax||i==xmax-1)||(j==zmax||j==zmax-1)){
-						glTexCoord2f(i, j+2);
-						glVertex3f(i,0, j+2);
-						memorizeYPosition(i, 0, j+2);
+					else if((i==xmax||i==xmax-1)||(j==zmax-2)){
+						glTexCoord2f(scaleTexture*((i-(xmin))/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
+						glVertex3f(i,0, j+interval);
+						memorizeYPosition(i, 0, j+interval);
 					}
 					else{
-						y = createRandom(0, 2);
-						glTexCoord2f(i, j+2);
-						glVertex3f(i,y, j+2);
-						memorizeYPosition(i, y, j+2);
+						y = createRandom(ymin, ymax);
+						glTexCoord2f(scaleTexture*((i-(xmin))/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
+						glVertex3f(i,y, j+interval);
+						memorizeYPosition(i, y, j+interval);
 					}
-//						cout << 'retrievePosition i j+2' << retrieveYPosition(i,j+2) << endl;
 				}
 				glEnd();
 
 			}
-
-//				glColor3ub(255, 0, 0);
-//				glVertex3f(xmin+1,y, zmin+1);
-//				glVertex3f(xmin+1,y, zmin+2);
-
-
-//				glBegin(GL_QUADS);
-//				glTexCoord2f(xmin, zmin+2);
-//				glVertex3f(xmin, 3.5, zmin+2);
-//				glTexCoord2f(xmin, zmax);
-//				glVertex3f(xmin, 0, zmax);
-//				glTexCoord2f(xmax, zmax);
-//				glVertex3f(xmax, 0, zmax);
-//				glTexCoord2f(xmax, zmin+2);
-//				glVertex3f(xmax, 1.5, zmin+2);
-//				glEnd();
 }
+
+
+
+void water(float xstart, float zstart, int size, int interval, GLuint texture){
+
+	float y;
+	float yTemp;
+	glBindTexture(GL_TEXTURE_2D, texture);
+
+	for(int j=zstart; j<zstart+size; j=j+interval){
+		glBegin(GL_QUADS);
+			glTexCoord2f(xstart, j);
+			glVertex3f(xstart,0 , j);
+			memorizeYPosition(xstart,0,j);
+			glTexCoord2f(xstart, j+interval);
+			glVertex3f(xstart, 0, j+interval);
+			memorizeYPosition(xstart,0,j+interval);
+			if(j==zstart+size-1||j==zstart+size-2){
+				glTexCoord2f(xstart+interval, j+interval);
+				glVertex3f(xstart+interval, 0, j+interval);
+				memorizeYPosition(xstart+interval,0,j+interval);
+			}
+			else{
+				yTemp = pow(size/2,2)-(pow((xstart+(size/2))-(xstart+interval), 2)+pow((zstart+(size/2))-(j+interval),2));
+				if(yTemp>0) y = -sqrtf(yTemp);
+				else y = 0;
+				glTexCoord2f(xstart+interval, j+interval);
+				glVertex3f(xstart+interval, y, j+interval);
+				memorizeYPosition(xstart+interval,y,j+interval);
+			}
+
+			if(j==zstart){
+				glTexCoord2f(xstart+interval, j);
+				glVertex3f(xstart+interval, 0, j);
+				memorizeYPosition(xstart+interval,0,j);
+			}
+			else{
+				glTexCoord2f(xstart+interval, j);
+				glVertex3f(xstart+interval, retrieveYPosition(xstart+interval,j), j);
+			}
+		glEnd();
+
+		glBegin(GL_QUAD_STRIP);
+		for(int i=xstart+interval; i<=xstart+size; i=i+interval){
+			if(j==zstart){
+				glTexCoord2f(i, j);
+				glVertex3f(i,0, j);
+				memorizeYPosition(i,0,j);
+			}
+			else{
+				glTexCoord2f(i, j);
+				glVertex3f(i,retrieveYPosition(i,j), j);
+			}
+			if(i==xstart+interval){
+				glTexCoord2f(i, j+interval);
+				glVertex3f(i,retrieveYPosition(i,j+interval), j+interval);
+			}
+			else if((i==xstart+size)||(j==zstart+size-2)){
+				glTexCoord2f(i, j+interval);
+				glVertex3f(i,0, j+interval);
+				memorizeYPosition(i, 0, j+interval);
+			}
+			else{
+
+				yTemp = pow(size/2,2)-(pow((xstart+(size/2))-i, 2)+pow((zstart+(size/2))-(j+interval),2));
+				if(yTemp>0) y = -sqrtf(yTemp);
+				else y = 0;
+
+				glTexCoord2f(i, j+interval);
+				glVertex3f(i,y, j+interval);
+				memorizeYPosition(i, y, j+interval);
+		}
+		}
+			glEnd();
+
+}
+}
+//
+
+
+
+
+//void wall(float xstart, float ystart, float zstart, float xend, float yend, float zend, GLuint texture){
+//
+//
+//
+//
+//
+//}
+
 //
 //	//declareChunck(xstart, xend, ystart, yend, zstart, zend);
 //
@@ -253,76 +353,7 @@ void groundDust(float xmin, float xmax, float y, float zmin, float zmax){
 //	declareChunck(xstart, xend, ystart, yend, zstart, zend);
 //}
 //
-void cube(double x, double y, double z) {
 
-	glColor3ub(255,255,255);
-	glBindTexture(GL_TEXTURE_2D, textureCaisse);
-
-	glBegin(GL_QUADS);
-
-	glTexCoord2d(0.0, 0.0);
-	glVertex3d(x - 1, y - 1, z - 1);
-	glTexCoord2d(0.0, 1.0);
-	glVertex3d(x - 1, y + 1, z - 1);
-	glTexCoord2d(1.0, 1.0);
-	glVertex3d(x + 1, y + 1, z - 1);
-	glTexCoord2d(1.0, 0.0);
-	glVertex3d(x + 1, y - 1, z - 1);
-
-
-	//glColor3ub(0, 255, 0);
-	glTexCoord2f(0.0, 0.0);
-	glVertex3d(x - 1, y - 1, z - 1);
-	glTexCoord2f(0.0, 1.0);
-	glVertex3d(x + 1, y - 1, z - 1);
-	glTexCoord2f(1.0, 1.0);
-	glVertex3d(x + 1, y - 1, z + 1);
-	glTexCoord2f(1.0, 0.0);
-	glVertex3d(x - 1, y - 1, z + 1);
-
-	//glColor3ub(0,0,255);
-	glTexCoord2f(0.0, 0.0);
-	glVertex3d(x + 1, y - 1, z - 1);
-	glTexCoord2f(0.0, 1.0);
-	glVertex3d(x + 1, y + 1, z - 1);
-	glTexCoord2f(1.0, 1.0);
-	glVertex3d(x + 1, y + 1, z + 1);
-	glTexCoord2f(1.0, 0.0);
-	glVertex3d(x + 1, y - 1, z + 1);
-
-	//glColor3ub(255, 255, 0);
-	glTexCoord2f(0.0, 0.0);
-	glVertex3d(x + 1, y + 1, z - 1);
-	glTexCoord2f(0.0, 1.0);
-	glVertex3d(x + 1, y + 1, z + 1);
-	glTexCoord2f(1.0, 1.0);
-	glVertex3d(x - 1, y + 1, z + 1);
-	glTexCoord2f(1.0, 0.0);
-	glVertex3d(x - 1, y + 1, z - 1);
-
-	//glColor3ub(255, 0, 255);
-	glTexCoord2f(0.0, 0.0);
-	glVertex3d(x - 1, y + 1, z + 1);
-	glTexCoord2f(0.0, 1.0);
-	glVertex3d(x - 1, y + 1, z - 1);
-	glTexCoord2f(1.0, 1.0);
-	glVertex3d(x - 1, y - 1, z - 1);
-	glTexCoord2f(1.0, 0.0);
-	glVertex3d(x - 1, y - 1, z + 1);
-
-	//glColor3ub(0, 255, 255);
-	glTexCoord2f(0.0, 0.0);
-	glVertex3d(x - 1, y - 1, z + 1);
-	glTexCoord2f(0.0, 1.0);
-	glVertex3d(x + 1, y - 1, z + 1);
-	glTexCoord2f(1.0, 1.0);
-	glVertex3d(x + 1, y + 1, z + 1);
-	glTexCoord2f(1.0, 0.0);
-	glVertex3d(x - 1, y + 1, z + 1);
-
-	glEnd();
-
-}
 //
 //void caisse(float x, float y, float z) {
 //
@@ -404,83 +435,7 @@ void cube(double x, double y, double z) {
 //
 //}
 //
-//void wall(float x1, float y1, float z1, float width, float height, int declare) {
-//
-//	AppliquerTexture(TextureWall_Dirty, 256, 256, 1, 0);
-////	AppliquerTexture(TextureSpyglass, 512, 512, 1, 1);
-//
-//	glBegin(GL_QUADS);
-//
-//	glColor3ub(255, 255, 255);
-//	glTexCoord2d(0.0, 0.0);
-//	glVertex3d(x1, y1, z1);
-//	glTexCoord2d(0.0, 1.0);
-//	glVertex3d(x1, y1+1, z1);
-//	glTexCoord2d(1.0, 1.0);
-//	glVertex3d(x1+width, y1+1, z1);
-//	glTexCoord2d(1.0, 0.0);
-//	glVertex3d(x1+width, y1, z1);
-//
-//	glColor3ub(255, 255, 255);
-//	glTexCoord2d(0.0, 0.0);
-//	glVertex3d(x1, y1, z1);
-//	glTexCoord2d(0.0, 1.0);
-//	glVertex3d(x1, y1+1, z1);
-//	glTexCoord2d(1.0, 1.0);
-//	glVertex3d(x1, y1+1, z1+height);
-//	glTexCoord2d(1.0, 0.0);
-//	glVertex3d(x1, y1, z1+height);
-//
-//	glColor3ub(255, 255, 255);
-//	glTexCoord2d(0.0, 0.0);
-//	glVertex3d(x1, y1, z1);
-//	glTexCoord2d(0.0, 1.0);
-//	glVertex3d(x1, y1, z1+height);
-//	glTexCoord2d(1.0, 1.0);
-//	glVertex3d(x1+width, y1, z1+height);
-//	glTexCoord2d(1.0, 0.0);
-//	glVertex3d(x1+width, y1, z1);
-//
-//	glColor3ub(255, 255, 255);
-//	glTexCoord2d(0.0, 0.0);
-//	glVertex3d(x1+width, y1, z1);
-//	glTexCoord2d(0.0, 1.0);
-//	glVertex3d(x1+width, y1+1, z1);
-//	glTexCoord2d(1.0, 1.0);
-//	glVertex3d(x1+width, y1+1, z1+height);
-//	glTexCoord2d(1.0, 0.0);
-//	glVertex3d(x1+width, y1, z1+height);
-//
-//	glColor3ub(255, 255, 255);
-//	glTexCoord2d(0.0, 0.0);
-//	glVertex3d(x1+width, y1+1, z1);
-//	glTexCoord2d(0.0, 1.0);
-//	glVertex3d(x1, y1+1, z1);
-//	glTexCoord2d(1.0, 1.0);
-//	glVertex3d(x1, y1+1, z1+height);
-//	glTexCoord2d(1.0, 0.0);
-//	glVertex3d(x1+width, y1+1, z1+height);
-//
-//	glColor3ub(255, 255, 255);
-//	glTexCoord2d(0.0, 0.0);
-//	glVertex3d(x1+width, y1+1, z1+height);
-//	glTexCoord2d(0.0, 1.0);
-//	glVertex3d(x1, y1+1, z1+height);
-//	glTexCoord2d(1.0, 1.0);
-//	glVertex3d(x1, y1, z1+height);
-//	glTexCoord2d(1.0, 0.0);
-//	glVertex3d(x1+width, y1, z1+height);
-//
-//	glEnd();
-//
-//	glDeleteTextures(1, TextureWall_Dirty);
-////	glDeleteTextures(1, TextureSpyglass);
-//
-//	glDisable(GL_TEXTURE_2D);
-//
-//	if(declare==1) declareChunck(x1, x1+width, y1, y1+1.0, z1, z1+height);
-//
-//}
+
 //
 //void fourWall(float x1, float y1, float z1, float width, float height)
 //{
