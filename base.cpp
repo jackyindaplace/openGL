@@ -16,6 +16,7 @@
 #include <math.h>
 #include "Camera/freeflycamera.h"
 #include <iostream>
+#include "Character/character.h"
 using namespace std;
 
 
@@ -174,49 +175,42 @@ int main(int argc, char **argv) {
 			glEnable(GL_TEXTURE_2D);
 
 			//TestGround
-//			ground(-30, -14, 0, 0, -30, -14, 2,textureGroundDust40, false, 0);
+//			ground(-30, -14, 0, 0, -30, -14, 2,textureGroundDust40, false, 0, false);
 
 			//Create Ground
-			ground(-10, 10, 0, 1, -10, 10, 2,textureGroundDust40, 1, false, 0);
-			ground(10, 20, 0, 1, -10, 10, 2,textureGroundDust40, 1, false, 0);
-			ground(-30, -6, 4, 9, 10, 72, 2,textureRock, 10, false, 0);
-			ground(-30, -6, 7, 12, 0, 10, 2,textureRock, 5, false, 0);
+			ground(-10, 10, 0, 1, -10, 10, 2,textureGroundDust40, 1, false, 0, false);
+			ground(10, 20, 0, 1, -10, 10, 2,textureGroundDust40, 1, false, 0, false);
+			ground(-30, -6, 4, 9, 10, 72, 2,textureRock, 10, false, 0, false);
+			ground(-30, -6, 7, 12, 0, 10, 2,textureRock, 5, false, 0, false);
 			for(int k=20;k<60;k=k+6){
-				ground(-6,0, k*0.1, k*0.2, k, k+6, 2,textureRock, 1,true, k-18);
+				ground(-6,0, k*0.1, k*0.2, k, k+6, 2,textureRock, 1,true, k-18, false);
 			}
-			ground(-6,0, 0, 2, 10, 14, 2,textureRock, 1,false, 0);
-			ground(-6,0, -2, 2, 10, 20, 2,textureGroundDust40, 1,false,0);
-			ground(0, 8, -1, 3, 5, 11, 2,textureRock, 1, false,0);
-			ground(-20,-10, 5, 10, -10, 10, 2,textureRock, 4, false,0);
-			ground(20, 40, 0, 0, -10, 10, 2,textureGroundDust40, 1, false,0);
-//							ground(10, 20, -2, 0, 10, 20, 2,eau, 1, false,0);
-			ground(0, 40, 0, 1, 50, 72, 2,textureGrass, 2, false,0);
-			ground(40, 60, 7, 10, 40, 50, 2,textureRock, 2, false,0);
+			ground(-6,0, 0, 2, 10, 14, 2,textureRock, 1,false, 0, false);
+			ground(-6,0, -2, 2, 10, 20, 2,textureGroundDust40, 1,false,0, false);
+			ground(0, 8, -1, 3, 5, 11, 2,textureRock, 1, false,0, false);
+			ground(-20,-10, 5, 10, -10, 10, 2,textureRock, 4, false,0, false);
+			ground(20, 40, 0, 0, -10, 10, 2,textureGroundDust40, 1, false,0, false);
+//							ground(10, 20, -2, 0, 10, 20, 2,eau, 1, false,0, false);
+			ground(0, 40, 0, 1, 50, 72, 2,textureGrass, 2, false,0, false);
+			ground(40, 60, 7, 10, 40, 50, 2,textureRock, 2, false,0, false);
 
 			//Create passage in the rock
-//			ground(40, 60, 0, 4, -10, 50, 2, textureRock, 2, false, 0);
+//			ground(40, 60, 0, 4, -10, 50, 2, textureRock, 2, false, 0, false);
 
 			//Create water container (ground)
-			water(0, 10, 40, 2, textureGroundDust40);
+//			water(0, 10, 40, 2, textureGroundDust40);
+//			glColor4f(1.0f,1.0f,1.0f,0.3f);
+			ground(0, 40, 0, -20, 10, 50, 2,textureGroundDust40, 4, false,0, true);
+
 			//Fill with water
-//			glEnable(GL_BLEND);
-//			glDepthMask(GL_FALSE);
+			drawWater(24, 24, 19.3, sea);
+
 //			glBlendFunc(GL_SRC_ALPHA, GL_ONE);
 
-			glTranslated(20,0,30);
-			glRotated(180,1,0,0);
-			glColor4f(0.0f,0.0f,1.0f,0.5);
-			drawHalfSphere(24, 24, 19.3);
-			glRotated(180,1,0,0);
-			glTranslated(-20,0,-30);
-
-
-
-
-			//Create a bunker
+//			//Create a bunker
 			bunker(40, 0, 50, 20, 10);
-
-			//Create cube
+//
+//			//Create cube
 			cube(10,1,60);
 			cube(12.1,1,60);
 			cube(11.05,1,62);
@@ -225,7 +219,10 @@ int main(int argc, char **argv) {
 			//Create rotating earth
 			angleRotationY += 0.05 * ellapsed_time;
 			angleRotationX += 0.05 * ellapsed_time;
-			drawEarth(angleRotationX,angleRotationY);
+//			glPushMatrix();
+//				glScaled(1,1.5,1);
+//				drawEarth(angleRotationX,angleRotationY);
+//			glPopMatrix();
 
 			ellapsed_time = SDL_GetTicks() - current_time;
 			if (ellapsed_time < 10)   SDL_Delay(10 - ellapsed_time);
@@ -240,6 +237,11 @@ int main(int argc, char **argv) {
 				soucoupe();
 			glRotated(90,1,0,0);
 			glTranslated(-4,-9,0);
+
+			/* Draw character*/
+
+					character();
+
 
 			/*Draw fence - no trespassing violators.
 			Transparency elements should be drawn at the end.*/

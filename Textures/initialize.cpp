@@ -20,5 +20,9 @@ void initializeTextures(){
 
 	earth = loadTexture("Textures/earth.jpg", false);
 	eau = loadTexture("Textures/eau.jpg", false);
+	sea = loadTexture("Textures/sea.jpg", false);
+
+	/* Character Texture */
+	faceCharacter = loadTexture("Textures/swayze2.png", false);
 
 }

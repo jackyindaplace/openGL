@@ -34,9 +34,11 @@
 	GLuint earth;
 	GLuint grind;
 	GLuint eau;
+	GLuint sea;
 	GLuint fence;
 	GLuint fenceTag;
 	GLuint transparent;
+	GLuint faceCharacter;
 
 //Application Parameters Main Declarations
 

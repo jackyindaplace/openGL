@@ -31,11 +31,11 @@ FreeFlyCamera::FreeFlyCamera(const Vector3D & position)
 
 void FreeFlyCamera::OnMouseMotion(const SDL_MouseMotionEvent & event)
 {
-//	std::cout << "state:" << event.state << "\n";
-//	std::cout << "xrel:" << event.xrel << "\n";
-//	std::cout << "yrel:" << event.yrel << "\n";
-//	std::cout << "x:" << event.x << "\n";
-//	std::cout << "y:" << event.y << "\n";
+	std::cout << "state:" << event.state << "\n";
+	std::cout << "xrel:" << event.xrel << "\n";
+	std::cout << "yrel:" << event.yrel << "\n";
+	std::cout << "x:" << event.x << "\n";
+	std::cout << "y:" << event.y << "\n";
 
 	if(event.xrel*event.xrel > 1 || event.yrel *event.yrel>1){
 

@@ -326,37 +326,65 @@ void cloture(float x1, float y1, float z1, float width, float height){
 scaley - scaling of sphere around y-axis
 r - radius of sphere
 */
-void drawHalfSphere(int scalex, int scaley, GLfloat r) {
-int i, j;
-GLfloat v[scalex*scaley][3];
+void drawWater(int scalex, int scaley, GLfloat r, GLuint texture) {
+//int i, j;
+//GLfloat v[scalex*scaley][3];
+glDisable(GL_TEXTURE_2D);
+glEnable(GL_BLEND);
+glDepthMask(GL_FALSE);
+glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+//
+//
+glTranslated(20,0,30);
+glRotated(180,1,0,0);
+//glColor4f(0.0f,0.0f,1.0f,0.4);
+glColor4ub(49,66,221,140);
 
-for (i=0; i<scalex; ++i) {
-for (j=0; j<scaley; ++j) {
-v[i*scaley+j][0]=r*cos(j*2*M_PI/scaley)*cos(i*M_PI/(2*scalex));
-v[i*scaley+j][1]=r*sin(i*M_PI/(2*scalex));
-v[i*scaley+j][2]=r*sin(j*2*M_PI/scaley)*cos(i*M_PI/(2*scalex));
-}
-}
+//
+//
+//for (i=0; i<scalex; ++i) {
+//for (j=0; j<scaley; ++j) {
+//v[i*scaley+j][0]=r*cos(j*2*M_PI/scaley)*cos(i*M_PI/(2*scalex));
+//v[i*scaley+j][1]=r*sin(i*M_PI/(2*scalex));
+//v[i*scaley+j][2]=r*sin(j*2*M_PI/scaley)*cos(i*M_PI/(2*scalex));
+//}
+//}
+//
+//glBegin(GL_QUADS);
+//for (i=0; i<scalex-1; ++i) {
+//for (j=0; j<scaley; ++j) {
+//glVertex3fv(v[i*scaley+j]);
+//glVertex3fv(v[i*scaley+(j+1)%scaley]);
+//glVertex3fv(v[(i+1)*scaley+(j+1)%scaley]);
+//glVertex3fv(v[(i+1)*scaley+j]);
+//}
+//}
+//glEnd();
 
-glBegin(GL_QUADS);
-for (i=0; i<scalex-1; ++i) {
-for (j=0; j<scaley; ++j) {
-glVertex3fv(v[i*scaley+j]);
-glVertex3fv(v[i*scaley+(j+1)%scaley]);
-glVertex3fv(v[(i+1)*scaley+(j+1)%scaley]);
-glVertex3fv(v[(i+1)*scaley+j]);
-}
-}
-glEnd();
+
+
 
 glRotated(90,1,0,0);
-glColor4f(0.0f,0.0f,1.0f,0.5);
 GLUquadric* params = gluNewQuadric();
-glTranslated(0,0,-19.3);
-gluDisk(params,0,1.5,24,1);
-glTranslated(0,0,19.3);
-gluDisk(params,0,19.3,24,1);
+
+//glEnable(GL_TEXTURE_2D);
+//glBindTexture(GL_TEXTURE_2D, sea);
+//gluQuadricTexture(params,GL_TRUE);
+
+//glTranslated(0,0,-19.3);
+//gluDisk(params,0,1.3,24,1);
+//glTranslated(0,0,19.3);
+gluDisk(params,0,22,24,1);
 glRotated(-90,1,0,0);
+
+gluDeleteQuadric(params);
+
+glRotated(180,1,0,0);
+glTranslated(-20,0,-30);
+
+glDepthMask(GL_TRUE);
+glDisable(GL_BLEND);
+
 
 
 }

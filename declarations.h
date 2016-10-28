@@ -31,9 +31,11 @@
 	extern GLuint earth;
 	extern GLuint grind;
 	extern GLuint eau;
+	extern GLuint sea;
 	extern GLuint fence;
 	extern GLuint fenceTag;
 	extern GLuint transparent;
+	extern GLuint faceCharacter;
 
 //Application Parameters Main Declarations
 

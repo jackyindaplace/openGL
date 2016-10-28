@@ -13,7 +13,7 @@
 //
 //extern void fourWall(float x1, float y1, float z1, float width, float height);
 //
-extern void ground(float xstart, float xend, float ymin, float ymax, float zstart, float zend, int interval, GLuint texture, int scaleTexture, bool changeSRand, int randomize);
+extern void ground(float xstart, float xend, float ymin, float ymax, float zstart, float zend, int interval, GLuint texture, int scaleTexture, bool changeSRand, int randomize, bool halfSphere);
 //
 //extern void groundGrass(float xstart, float xend, float ystart, float yend, float zstart, float zend);
 //

@@ -111,13 +111,13 @@ void flatGround(float width){
 /*	Function used to draw the field. interval is used to create more or less relief.
  *
  */
-void ground(float xmin, float xmax, float ymin, float ymax, float zmin, float zmax, int interval, GLuint texture, int scaleTexture, bool changeSRand, int randomize){
+void ground(float xmin, float xmax, float ymin, float ymax, float zmin, float zmax, int interval, GLuint texture, int scaleTexture, bool changeSRand, int randomize, bool halfSphere){
 	//Using a fixed number to generate random values which will not change when scene is redisplayed. So the field won't change.
 	srand (static_cast <unsigned> (1476764538));
-	cout <<rand()<<endl;
-	cout <<rand()<<endl;
-	cout <<rand()<<endl;
-	cout <<rand()<<endl;
+
+	int red=49;
+	int green=66;
+	int blue=221;
 
 	if(changeSRand){
 		for(int l=0; l<randomize; l++){
@@ -127,47 +127,61 @@ void ground(float xmin, float xmax, float ymin, float ymax, float zmin, float zm
 
 
 	float y;
+	float yTemp;
 
 	glBindTexture(GL_TEXTURE_2D, texture);
 
 			for(int j=zmin; j<zmax; j=j+interval){
 				glBegin(GL_QUADS);
+					glColor3ub(255,255,255);
 					glTexCoord2f(0, scaleTexture*((j-zmin)/(zmax-zmin)));
-//					cout << "#1(0,0): "<< endl;
 					glVertex3f(xmin,0 , j);
 					memorizeYPosition(xmin,0,j);
-//					glTexCoord2f(0, 1);
+					glColor3ub(255,255,255);
 					glTexCoord2f(0, scaleTexture*((j+interval-zmin)/(zmax-zmin)));
-//					cout << "#2(0,1): 0,  " <<  (j+interval-zmin)/(zmax-zmin) << endl;
 					glVertex3f(xmin, 0, j+interval);
 					memorizeYPosition(xmin,0,j+interval);
 					if(j==zmax-2){
-//						glTexCoord2f(1, 1);
+						glColor3ub(255,255,255);
 						glTexCoord2f(scaleTexture*((xmin+interval-xmin)/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
-//						cout << "#3(1,1): " << (xmin+interval-xmin)/(xmax-(xmin)) << "**" << (j+interval-zmin)/(zmax-zmin) << endl;
 						glVertex3f(xmin+interval, 0, j+interval);
 						memorizeYPosition(xmin+interval,0,j+interval);
 					}
+					else if(halfSphere){
+						yTemp = pow((xmax-xmin)/2,2)-(pow(((xmin)+((xmax-xmin)/2))-((xmin)+interval), 2)+pow(((zmin)+((xmax-xmin)/2))-(j+interval),2));
+										if(yTemp>0) {
+											y = -sqrtf(yTemp);
+											glColor3ub(red,green,blue);
+										}
+										else {
+											y = 0;
+											glColor3ub(255,255,255);
+										}
+
+										glTexCoord2f(scaleTexture*((xmin+interval-xmin)/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
+										glVertex3f((xmin)+interval, y, j+interval);
+										memorizeYPosition((xmin)+interval,y,j+interval);}
 					else{
 						y = createRandom(ymin, ymax);
-//						glTexCoord2f(1, 1);
+						glColor3ub(255,255,255);
 						glTexCoord2f(scaleTexture*((xmin+interval-xmin)/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
-//						cout << "#3(1,1): " << (xmin+interval-xmin)/(xmax-(xmin)) << "**" << (j+interval-zmin)/(zmax-zmin) << endl;
 						glVertex3f(xmin+interval, y, j+interval);
 						memorizeYPosition(xmin+interval,y,j+interval);
 					}
 
 					if(j==zmin){
-//						glTexCoord2f(1, 0);
+						glColor3ub(255,255,255);
 						glTexCoord2f(scaleTexture*((xmin+interval-xmin)/(xmax-(xmin))), scaleTexture*((j-zmin)/(zmax -zmin)));
-//						cout << "#4(1,0): " << (xmin+interval-xmin)/(xmax-(xmin)) << "**" <<  (j-zmin)/(zmax-zmin) << endl;
 						glVertex3f(xmin+interval, 0, j);
 						memorizeYPosition(xmin+interval,0,j);
 					}
 					else{
-//						glTexCoord2f(1, 0);
+						glColor3ub(255,255,255);
+						if(halfSphere) {
+							if(retrieveYPosition(xmin+interval,j) != 0) glColor3ub(red,green,blue);
+						}
+
 						glTexCoord2f(scaleTexture*((xmin+interval-xmin)/(xmax-(xmin))), scaleTexture*((j-zmin)/(zmax -zmin)));
-//						cout << "#4(1,0): " << (xmin+interval-xmin)/(xmax-(xmin)) << "**" <<  (j-zmin)/(zmax-zmin) << endl;
 						glVertex3f(xmin+interval, retrieveYPosition(xmin+interval,j), j);
 					}
 				glEnd();
@@ -175,25 +189,53 @@ void ground(float xmin, float xmax, float ymin, float ymax, float zmin, float zm
 				glBegin(GL_QUAD_STRIP);
 				for(int i=xmin+interval; i<=xmax; i=i+interval){
 					if(j==zmin){
+						glColor3ub(255,255,255);
 						glTexCoord2f(scaleTexture*((i-(xmin))/(xmax-(xmin))), scaleTexture*((j-zmin)/(zmax -zmin)));
 						glVertex3f(i,0, j);
 						memorizeYPosition(i,0,j);
 					}
 					else{
+						glColor3ub(255,255,255);
+						if(halfSphere)
+							{
+							if(retrieveYPosition(i,j) != 0) glColor3ub(red,green,blue);
+							}
 						glTexCoord2f(scaleTexture*((i-(xmin))/(xmax-(xmin))), scaleTexture*((j-zmin)/(zmax -zmin)));
 						glVertex3f(i,retrieveYPosition(i,j), j);
 					}
 					if(i==xmin+interval){
+						glColor3ub(255,255,255);
+						if(halfSphere)
+							{
+							if(retrieveYPosition(i,j+interval) != 0) glColor3ub(red,green,blue);
+							}
 						glTexCoord2f(scaleTexture*((i-(xmin))/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
 						glVertex3f(i,retrieveYPosition(i,j+interval), j+interval);
 					}
 					else if((i==xmax||i==xmax-1)||(j==zmax-2)){
+						glColor3ub(255,255,255);
 						glTexCoord2f(scaleTexture*((i-(xmin))/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
 						glVertex3f(i,0, j+interval);
 						memorizeYPosition(i, 0, j+interval);
 					}
+					else if(halfSphere){
+
+						yTemp = pow((xmax-xmin)/2,2)-(pow(((xmin)+((xmax-xmin)/2))-i, 2)+pow(((zmin)+((xmax-xmin)/2))-(j+interval),2));
+
+										glColor3ub(red,green,blue);
+										if(yTemp>0) y = -sqrtf(yTemp);
+										else {
+											y = 0;
+											glColor3ub(255,255,255);
+										}
+										glTexCoord2f(scaleTexture*((i-(xmin))/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
+										glVertex3f(i,y, j+interval);
+										memorizeYPosition(i, y, j+interval);}
 					else{
+
+
 						y = createRandom(ymin, ymax);
+						glColor3ub(255,255,255);
 						glTexCoord2f(scaleTexture*((i-(xmin))/(xmax-(xmin))), scaleTexture*((j+interval-zmin)/(zmax -zmin)));
 						glVertex3f(i,y, j+interval);
 						memorizeYPosition(i, y, j+interval);
