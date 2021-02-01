@@ -1,1 +1,6 @@
-/Default/
+Debug/
+Release/
+*.o
+.cproject
+.project
+.settings

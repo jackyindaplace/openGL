@@ -29,7 +29,7 @@ using namespace std;
  -lSDL_mixer
  -lSDL_image */
 
-//zip et cc françois le floch
+//zip et cc franï¿½ois le floch
 //Thierry.SOBANSKI@ICL-LILLE.FR
 //Generer volume a partir de courbe de spleen
 
@@ -68,7 +68,7 @@ int main(int argc, char **argv) {
 //			{
 //		printf("%s", Mix_GetError());
 //	}
-//	Mix_Music *musique; //Création du pointeur de type Mix_Music
+//	Mix_Music *musique; //Crï¿½ation du pointeur de type Mix_Music
 	//musique = Mix_LoadMUS("Sound/Sugar feat. Milie oops (do di do di dam).mp3"); //Chargement de la musique
 	//Mix_PlayMusic(musique, -1); //Jouer infiniment la musique-----------
 
@@ -81,7 +81,7 @@ int main(int argc, char **argv) {
 		switch (event.type) {
 			case SDL_QUIT:
 				continuer = 0;
-	//			Mix_FreeMusic(musique); //Libération de la musique
+	//			Mix_FreeMusic(musique); //Libï¿½ration de la musique
 	//			Mix_CloseAudio(); //Fermeture de l'API
 				delete camera;
 				SDL_Quit(); //TODO: Bug when closing application
@@ -97,7 +97,7 @@ int main(int argc, char **argv) {
 
 					case SDLK_ESCAPE:
 						continuer = 0;
-			//			Mix_FreeMusic(musique); //Libération de la musique
+			//			Mix_FreeMusic(musique); //Libï¿½ration de la musique
 			//			Mix_CloseAudio(); //Fermeture de l'API
 						delete camera;
 						SDL_Quit(); //TODO: Bug when closing application
@@ -262,8 +262,8 @@ int main(int argc, char **argv) {
 
 
 
-/* Dessine le repère actuel pour faciliter la compréhension des transformations.
- Utiliser « echelle » pour avoir un repère bien orienté et positionné mais avec une échelle différente. */
+/* Dessine le repï¿½re actuel pour faciliter la comprï¿½hension des transformations.
+ Utiliser ï¿½ echelle ï¿½ pour avoir un repï¿½re bien orientï¿½ et positionnï¿½ mais avec une ï¿½chelle diffï¿½rente. */
 
 void Resize(int Width, int Height) {
 	GLdouble Aspect;
