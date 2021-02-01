@@ -5,3 +5,5 @@ Release/
 .project
 .settings
 .vscode/
+stdout.txt
+*.exe

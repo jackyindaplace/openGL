@@ -71,7 +71,7 @@
 		float anglesoucoupe = 0.0;
 		float anglesuivresoucoupe = -20.0;
 		int aurevoirsoucoupe = 0, bougersoucoupe = 0;
-		char *step = "kinematicSaucerArrives"; // Warning: Difference between " " and ' '
+		char step[] = "kinematicSaucerArrives"; // Warning: Difference between " " and ' '
 		float tt = -200.0; // TODO: Change name
 
 	//Main Character

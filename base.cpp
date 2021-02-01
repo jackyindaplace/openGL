@@ -3,7 +3,7 @@
 #include <string.h>
 #include <GL/freeglut.h>
 #include <SDL/SDL.h>
-#include "SDL/SDL_mixer.h"
+#include <SDL/SDL_mixer.h>
 #include "SDL/SDL_mouse.h"
 #include "declarations.h"
 #include "Objects/objects.h"
