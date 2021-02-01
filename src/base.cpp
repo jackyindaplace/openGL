@@ -12,7 +12,7 @@
 #include "Landmark/landmark.h"
 #include "Field/field.h"
 #include "Textures/sdlglutils.h"
-#include "Scenario/Step 1 - Flying Saucer/saucer.h"
+#include "Scenario/Step-1-Flying-Saucer/saucer.h"
 #include <math.h>
 #include "Camera/freeflycamera.h"
 #include <iostream>
