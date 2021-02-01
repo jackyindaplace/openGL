@@ -1,16 +1,16 @@
 # OpenGL Project
 
 ## Overview
-C/C++ project using openGL 1.2 and SDL 1.2 (Deprecated)
+C/C++ project using openGL 1.2 and SDL 1.2 (Deprecated)  
 Main goal is(was) to escape in the UFO by jumping over the boxes.
 
 ## Controls
-z : up
-q : left
-d: right
-s: down
-space : jump
-Use the mouse to move
+z : up  
+q : left  
+d: right  
+s: down  
+space : jump  
+Use the mouse to move  
 
 ## Build
 ### Prerequisite
