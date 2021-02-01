@@ -7,7 +7,7 @@ copy-textures:
 	xcopy "src\Textures\textures" Release\textures /E/H/Y
 
 build: copy-textures
-	g++ ${INCLUDES} ${LIBRARY_PATH} -o ./Release/myprog.exe src/*.cpp\
+	g++ ${INCLUDES} ${LIBRARY_PATH} -o ./Release/game.exe src/*.cpp\
 	 src/Camera/*.cpp\
 	 src/Character/*.cpp\
 	 src/Field/*.cpp\
