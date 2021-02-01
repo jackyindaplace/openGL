@@ -3,12 +3,12 @@
 #include <string.h>
 #include <GL/freeglut.h>
 #include <SDL/SDL.h>
-#include <SDL/SDL_mixer.h>
-#include <SDL/SDL_mouse.h>
+#include "SDL/SDL_mixer.h"
+#include "SDL/SDL_mouse.h"
 #include "declarations.h"
 #include "Objects/objects.h"
 #include "Textures/initialize.h"
-#include <GL/glext.h>
+#include "GL/glext.h"
 #include "Landmark/landmark.h"
 #include "Field/field.h"
 #include "Textures/sdlglutils.h"

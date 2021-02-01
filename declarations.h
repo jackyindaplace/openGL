@@ -5,8 +5,8 @@
  *      Author: Maxence Fromentin
  */
 
-#include <GL/freeglut.h>
-#include <SDL/SDL_mixer.h>
+#include "GL/freeglut.h"
+#include "SDL/SDL_mixer.h"
 
 //	#define xTaille 500;
 //	#define zTaille 500;
