@@ -5,8 +5,8 @@
  *      Author: Maxence Fromentin
  */
 
-#include <GL/freeglut.h>
-#include <SDL/SDL_mixer.h>
+#include "GL/freeglut.h"
+#include "SDL/SDL_mixer.h"
 
 //	#define xTaille 500;
 //	#define zTaille 500;
@@ -75,7 +75,7 @@
 	extern float anglesoucoupe;
 	extern float anglesuivresoucoupe;
 	extern int aurevoirsoucoupe, bougersoucoupe;
-	extern char *step;
+	extern char step[];
 	extern float tt; // TODO: Change name
 
 	//Main Character

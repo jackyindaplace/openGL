@@ -1,1 +1,9 @@
-/Default/
+Debug/
+Release/
+*.o
+.cproject
+.project
+.settings
+.vscode/
+stdout.txt
+*.exe
