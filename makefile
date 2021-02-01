@@ -1,21 +1,18 @@
-INCLUDES = -I .
+INCLUDES = -I ./include
 LIBRARY_PATH = -L./lib
 
-all: base.exe
+all: build
 
-base.exe: base.o
-	g++ -o base.exe base.o
+copy-textures:
+	xcopy "src\Textures\textures" Release\textures /E/H/Y
 
-base.o: base.cpp
-	g++ -I ./lib -include ./Camera/*.cpp -include ./Character/*.cpp -include ./Field/*.cpp -include ./Landmark/*.cpp -include ./Moves/*.cpp -include ./Objects/*.cpp -include ./Perspectives/*.cpp -include ./Scenario/*.cpp -include ./Textures/*.cpp -c *.cpp
-
-test: 
-	g++ ${INCLUDES} ${LIBRARY_PATH} -o myprog.exe *.cpp\
-	 Camera/*.cpp\
-	 Character/*.cpp\
-	 Field/*.cpp\
-	 Landmark/*.cpp\
-	 Objects/*.cpp\
-	 Scenario/"Step 1 - Flying Saucer"/*.cpp\
-	 Textures/*.cpp\
+build: copy-textures
+	g++ ${INCLUDES} ${LIBRARY_PATH} -o ./Release/myprog.exe src/*.cpp\
+	 src/Camera/*.cpp\
+	 src/Character/*.cpp\
+	 src/Field/*.cpp\
+	 src/Landmark/*.cpp\
+	 src/Objects/*.cpp\
+	 src/Scenario/"Step 1 - Flying Saucer"/*.cpp\
+	 src/Textures/*.cpp\
 	 -lmingw32 -lopengl32 -lglu32 -lglew32 -lfreeglut -lSDLmain -lSDL -lSDL_mixer -lSDL_image
