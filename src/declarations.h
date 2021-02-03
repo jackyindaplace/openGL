@@ -6,7 +6,7 @@
  */
 
 #include "GL/freeglut.h"
-#include "SDL/SDL_mixer.h"
+#include "SDL2/SDL_mixer.h"
 
 //	#define xTaille 500;
 //	#define zTaille 500;
@@ -128,4 +128,11 @@
 	extern float i, j;
 	extern int spacebar;
 	extern float pi;
+
+//void InitializeDataPath();
+extern char *data_path;
+//extern char* GetDataPath();
+
+
+
 

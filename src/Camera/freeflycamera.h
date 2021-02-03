@@ -2,7 +2,7 @@
 #define FREEFLYCAMERA_H
 
 #include "vector3d.h"
-#include <SDL/SDL.h>
+#include <SDL2/SDL.h>
 #include <map>
 #include <string>
 
@@ -12,7 +12,7 @@ public:
     FreeFlyCamera(const Vector3D & position = Vector3D(0,0,0));
 
     virtual void OnMouseMotion(const SDL_MouseMotionEvent & event);
-    virtual void OnMouseButton(const SDL_MouseButtonEvent & event);
+    virtual void OnMouseWheel(const SDL_MouseWheelEvent & event);
     virtual void OnKeyboard(const SDL_KeyboardEvent & event);
 
     virtual void animate(Uint32 timestep);
@@ -33,9 +33,9 @@ protected:
     bool _verticalMotionActive;
     int _verticalMotionDirection;
 
-    typedef std::map<SDLKey,bool> KeyStates;
+    typedef std::map<SDL_Keycode,bool> KeyStates;
     KeyStates _keystates;
-    typedef std::map<std::string,SDLKey> KeyConf;
+    typedef std::map<std::string,SDL_Keycode> KeyConf;
     KeyConf _keyconf;
 
     Vector3D _position;

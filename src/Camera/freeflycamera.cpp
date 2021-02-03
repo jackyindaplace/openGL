@@ -25,8 +25,9 @@ FreeFlyCamera::FreeFlyCamera(const Vector3D & position)
     _keystates[_keyconf["strafe_right"]] = false;
     _keystates[_keyconf["boost"]] = false;
 
-    SDL_WM_GrabInput(SDL_GRAB_ON);
-    SDL_ShowCursor(SDL_DISABLE);
+    // SDL_WM_GrabInput(SDL_GRAB_ON);
+    // SDL_ShowCursor(SDL_DISABLE);
+    SDL_SetRelativeMouseMode(SDL_TRUE);
 }
 
 void FreeFlyCamera::OnMouseMotion(const SDL_MouseMotionEvent & event)
@@ -46,21 +47,41 @@ void FreeFlyCamera::OnMouseMotion(const SDL_MouseMotionEvent & event)
 	}
 }
 
-void FreeFlyCamera::OnMouseButton(const SDL_MouseButtonEvent & event)
+void FreeFlyCamera::OnMouseWheel(const SDL_MouseWheelEvent & event)
 {
-    if ((event.button == SDL_BUTTON_WHEELUP)&&(event.type == SDL_MOUSEBUTTONDOWN)) //coup de molette vers le haut
+
+    if(event.type == SDL_MOUSEWHEEL)
     {
-        _verticalMotionActive = true;
-        _timeBeforeStoppingVerticalMotion = 250;
-        _verticalMotionDirection = 1;
+        if(event.y > 0) // scroll up
+        {
+             // Put code for handling "scroll up" here!
+             _verticalMotionActive = true;
+             _timeBeforeStoppingVerticalMotion = 250;
+             _verticalMotionDirection = 1;
+        }
+        else if(event.y < 0) // scroll down
+        {
+             // Put code for handling "scroll down" here!
+             _verticalMotionActive = true;
+             _timeBeforeStoppingVerticalMotion = 250;
+             _verticalMotionDirection = -1;
+        }
 
     }
-    else if ((event.button == SDL_BUTTON_WHEELDOWN)&&(event.type == SDL_MOUSEBUTTONDOWN)) //coup de molette vers le bas
-    {
-        _verticalMotionActive = true;
-        _timeBeforeStoppingVerticalMotion = 250;
-        _verticalMotionDirection = -1;
-    }
+
+    // if ((event.button == SDL_BUTTON_WHEELUP)&&(event.type == SDL_MOUSEBUTTONDOWN)) //coup de molette vers le haut
+    // {
+    //     _verticalMotionActive = true;
+    //     _timeBeforeStoppingVerticalMotion = 250;
+    //     _verticalMotionDirection = 1;
+
+    // }
+    // else if ((event.button == SDL_BUTTON_WHEELDOWN)&&(event.type == SDL_MOUSEBUTTONDOWN)) //coup de molette vers le bas
+    // {
+    //     _verticalMotionActive = true;
+    //     _timeBeforeStoppingVerticalMotion = 250;
+    //     _verticalMotionDirection = -1;
+    // }
 }
 
 void FreeFlyCamera::OnKeyboard(const SDL_KeyboardEvent & event)
@@ -154,6 +175,7 @@ void FreeFlyCamera::look()
 
 FreeFlyCamera::~FreeFlyCamera()
 {
-    SDL_WM_GrabInput(SDL_GRAB_OFF);
-    SDL_ShowCursor(SDL_ENABLE);
+    // SDL_WM_GrabInput(SDL_GRAB_OFF);
+    // SDL_ShowCursor(SDL_ENABLE);
+    SDL_SetRelativeMouseMode(SDL_FALSE);
 }

@@ -100,16 +100,28 @@ void TrackBallCamera::OnMouseButton(const SDL_MouseButtonEvent & event)
             SDL_SetCursor(_hand2);
         }
     }
-    else if ((event.button == SDL_BUTTON_WHEELUP)&&(event.type == SDL_MOUSEBUTTONDOWN))
+}
+
+void TrackBallCamera::OnMouseWheel(const SDL_MouseWheelEvent & event)
+{
+
+    if(event.type == SDL_MOUSEWHEEL)
     {
-        _distance -= _scrollSensivity;
-        if (_distance < 0.1)
-            _distance = 0.1;
+        if(event.y > 0) // scroll up
+        {
+             // Put code for handling "scroll up" here!
+             _distance -= _scrollSensivity;
+            if (_distance < 0.1)
+                _distance = 0.1;
+        }
+        else if(event.y < 0) // scroll down
+        {
+             // Put code for handling "scroll down" here!
+             _distance += _scrollSensivity;
+        }
+
     }
-    else if ((event.button == SDL_BUTTON_WHEELDOWN)&&(event.type == SDL_MOUSEBUTTONDOWN))
-    {
-            _distance += _scrollSensivity;
-    }
+
 }
 
 void TrackBallCamera::OnKeyboard(const SDL_KeyboardEvent & event)

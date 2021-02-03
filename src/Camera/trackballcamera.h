@@ -1,7 +1,7 @@
 #ifndef TRACKBALLCAMERA_H
 #define TRACKBALLCAMERA_H
 
-#include <SDL/SDL.h>
+#include <SDL2/SDL.h>
 
 class TrackBallCamera
 {
@@ -10,6 +10,7 @@ public:
 
     virtual void OnMouseMotion(const SDL_MouseMotionEvent & event);
     virtual void OnMouseButton(const SDL_MouseButtonEvent & event);
+    virtual void OnMouseWheel(const SDL_MouseWheelEvent & event);
     virtual void OnKeyboard(const SDL_KeyboardEvent & event);
 
     virtual void look();

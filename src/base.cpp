@@ -1,10 +1,12 @@
+#define SDL_MAIN_HANDLED
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <GL/freeglut.h>
-#include <SDL/SDL.h>
-#include <SDL/SDL_mixer.h>
-#include "SDL/SDL_mouse.h"
+#include <SDL2/SDL_main.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_mixer.h>
+#include "SDL2/SDL_mouse.h"
 #include "declarations.h"
 #include "Objects/objects.h"
 #include "Textures/initialize.h"
@@ -12,7 +14,7 @@
 #include "Landmark/landmark.h"
 #include "Field/field.h"
 #include "Textures/sdlglutils.h"
-#include "Scenario/Step 1 - Flying Saucer/saucer.h"
+#include "Scenario/Step-1-Flying-Saucer/saucer.h"
 #include <math.h>
 #include "Camera/freeflycamera.h"
 #include <iostream>
@@ -29,11 +31,7 @@ using namespace std;
  -lSDL_mixer
  -lSDL_image */
 
-//zip et cc fran�ois le floch
-//Thierry.SOBANSKI@ICL-LILLE.FR
 //Generer volume a partir de courbe de spleen
-
-
 
 int main(int argc, char **argv) {
 
@@ -48,14 +46,37 @@ int main(int argc, char **argv) {
 	Uint32 last_time = SDL_GetTicks();
 	Uint32 current_time, ellapsed_time;
 	FreeFlyCamera * camera;
-
 	SDL_Event event;
 
-	SDL_Init(SDL_INIT_VIDEO);
-	SDL_WM_SetCaption("OpenGL", NULL);
-	SDL_SetVideoMode(640, 480, 32, SDL_OPENGL);
+	if (SDL_Init(SDL_INIT_VIDEO|SDL_INIT_AUDIO) != 0) {
+        SDL_Log("Unable to initialize SDL: %s", SDL_GetError());
+        return 1;
+    }
 
-	SDL_EnableKeyRepeat(10,10);
+	//SDL_SetHint(SDL_HINT_RENDER_DRIVER, "opengl");
+
+	SDL_Window *sdlWindow = SDL_CreateWindow("My Game Window",
+                          SDL_WINDOWPOS_CENTERED,
+                          SDL_WINDOWPOS_CENTERED,
+                          800, 600,
+                          SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
+
+	// SDL_Renderer *sdlRenderer = SDL_CreateRenderer(sdlWindow, -1, 0);
+
+	// SDL_CreateWindowAndRenderer(0, 0, SDL_WINDOW_FULLSCREEN_DESKTOP, &sdlWindow, &sdlRenderer);
+
+	// SDL_SetRenderDrawColor(sdlRenderer, 0, 0, 0, 255);
+	// SDL_RenderClear(sdlRenderer);
+	// SDL_RenderPresent(sdlRenderer);
+
+	// SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "linear");  // make the scaled rendering look smoother.
+	// SDL_RenderSetLogicalSize(sdlRenderer, 640, 480);
+
+	SDL_GLContext glctx  = SDL_GL_CreateContext(sdlWindow);
+    glEnable(GL_DEBUG_OUTPUT);
+	SDL_GL_MakeCurrent(sdlWindow, glctx);
+
+	// SDL_EnableKeyRepeat(10,10);
 
 	glEnable(GL_TEXTURE_2D);
 
@@ -149,8 +170,8 @@ int main(int argc, char **argv) {
 				       camera->OnMouseMotion(event.motion);
 				break;
 				case SDL_MOUSEBUTTONUP:
-				case SDL_MOUSEBUTTONDOWN:
-				       camera->OnMouseButton(event.button);
+				case SDL_MOUSEWHEEL:
+				       camera->OnMouseWheel(event.wheel);
 				break;
 		}
 
@@ -253,7 +274,7 @@ int main(int argc, char **argv) {
 //****************MAIN VIDEO GAME DRAWING END******************************************
 
 			glFlush();
-			SDL_GL_SwapBuffers();
+			SDL_GL_SwapWindow(sdlWindow);
 		}
 
 		return 0;
@@ -328,4 +349,5 @@ void KeyfuncUp(unsigned char Key, int X, int Y) {
 void Menu(int Value) {
 	perspectiveChoice = Value;
 }
+
 
