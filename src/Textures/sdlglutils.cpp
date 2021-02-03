@@ -6,6 +6,7 @@
 
 #include "string.h"
 #include "stdlib.h"
+#include <stdio.h>
 
 SDL_Surface * flipSurface(SDL_Surface * surface);
 
@@ -181,23 +182,34 @@ int initFullScreen(unsigned int * width,unsigned int * height)
 {
     SDL_Rect ** modes;
 
-    modes = SDL_ListModes(NULL,SDL_FULLSCREEN|SDL_OPENGL);
-    if ((modes == (SDL_Rect **)0)||(modes == (SDL_Rect **)-1))
-        return 0;
+    //modes = SDL_ListModes(NULL,SDL_FULLSCREEN|SDL_OPENGL);
 
-    if (width != NULL)
-        *width = modes[0]->w;
-    if (height != NULL)
-        *height = modes[0]->h;
-    if (SDL_SetVideoMode(modes[0]->w,
-                         modes[0]->h,
-                         SDL_GetVideoInfo()->vfmt->BitsPerPixel,
-                         SDL_FULLSCREEN|SDL_OPENGL) == NULL)
-        return -1;
-    else
-    {
-        return 0;
-    }
+    SDL_Window *sdlWindow = SDL_CreateWindow("My Game Window",
+                          SDL_WINDOWPOS_CENTERED,
+                          SDL_WINDOWPOS_CENTERED,
+                          0, 0,
+                          SDL_WINDOW_FULLSCREEN_DESKTOP);
+
+	SDL_Renderer *sdlRenderer = SDL_CreateRenderer(sdlWindow, -1, 0);
+
+	SDL_CreateWindowAndRenderer(0, 0, SDL_WINDOW_FULLSCREEN_DESKTOP, &sdlWindow, &sdlRenderer);
+
+    // if ((modes == (SDL_Rect **)0)||(modes == (SDL_Rect **)-1))
+    //     return 0;
+
+    // if (width != NULL)
+    //     *width = modes[0]->w;
+    // if (height != NULL)
+    //     *height = modes[0]->h;
+    // if (SDL_SetVideoMode(modes[0]->w,
+    //                      modes[0]->h,
+    //                      SDL_GetVideoInfo()->vfmt->BitsPerPixel,
+    //                      SDL_FULLSCREEN|SDL_OPENGL) == NULL)
+    //     return -1;
+    // else
+    // {
+    //     return 0;
+    // }
 }
 
 int XPMFromImage(const char * imagefile, const char * XPMfile)

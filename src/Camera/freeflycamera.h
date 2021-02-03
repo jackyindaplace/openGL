@@ -33,9 +33,9 @@ protected:
     bool _verticalMotionActive;
     int _verticalMotionDirection;
 
-    typedef std::map<SDLKey,bool> KeyStates;
+    typedef std::map<SDL_Keycode,bool> KeyStates;
     KeyStates _keystates;
-    typedef std::map<std::string,SDLKey> KeyConf;
+    typedef std::map<std::string,SDL_Keycode> KeyConf;
     KeyConf _keyconf;
 
     Vector3D _position;

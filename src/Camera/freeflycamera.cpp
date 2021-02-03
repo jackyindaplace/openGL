@@ -175,6 +175,7 @@ void FreeFlyCamera::look()
 
 FreeFlyCamera::~FreeFlyCamera()
 {
-    SDL_WM_GrabInput(SDL_GRAB_OFF);
-    SDL_ShowCursor(SDL_ENABLE);
+    // SDL_WM_GrabInput(SDL_GRAB_OFF);
+    // SDL_ShowCursor(SDL_ENABLE);
+    SDL_SetRelativeMouseMode(SDL_FALSE);
 }
