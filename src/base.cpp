@@ -21,6 +21,7 @@
 #include "Character/character.h"
 using namespace std;
 
+
 //TODO: For resources allocated by the application, see if static textures are only loaded once or if its are loaded each time
 //int Mix_OpenAudio(int frequency, Uint16 format, int channels, int chunksize);
 
@@ -46,8 +47,6 @@ int main(int argc, char **argv) {
 	Uint32 current_time, ellapsed_time;
 	FreeFlyCamera * camera;
 	SDL_Event event;
-
-	InitializeDataPath(NULL);
 
 	if (SDL_Init(SDL_INIT_VIDEO|SDL_INIT_AUDIO) != 0) {
         SDL_Log("Unable to initialize SDL: %s", SDL_GetError());

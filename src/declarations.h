@@ -129,9 +129,10 @@
 	extern int spacebar;
 	extern float pi;
 
+//void InitializeDataPath();
 extern char *data_path;
-extern void InitializeDataPath(char *data_path);
-extern char* GetDataPath();
+//extern char* GetDataPath();
+
 
 
 

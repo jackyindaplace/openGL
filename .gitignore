@@ -4,6 +4,5 @@ Release/
 .cproject
 .project
 .settings
-.vscode/
 stdout.txt
 *.exe

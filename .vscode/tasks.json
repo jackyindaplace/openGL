@@ -1,0 +1,37 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "type": "shell",
+        "label": "C/C++: g++.exe build active file",
+        "command": "C:\\Programs\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe",
+        "args": ["-g","-I", "${workspaceFolder}\\include",
+          "-L${workspaceFolder}\\lib",
+          "-o", "${workspaceFolder}\\Release\\game.exe",
+          "${workspaceFolder}\\src\\*.cpp",
+          "src\\Camera\\*.cpp",
+          "src\\Character\\*.cpp",
+          "src\\Field\\*.cpp",
+          "src\\Landmark\\*.cpp",
+          "src\\Objects\\*.cpp",
+          "src\\Scenario\\Step-1-Flying-Saucer\\*.cpp",
+          "src\\Textures\\*.cpp",
+          "-l","mingw32",
+          "-l","opengl32",
+          "-l","glu32",
+          "-l","glew32",
+          "-l","freeglut",
+          "-l","SDL2",
+          "-l","SDL2_mixer",
+          "-l","SDL2_image"],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": ["$gcc"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }

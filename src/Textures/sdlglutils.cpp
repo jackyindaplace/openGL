@@ -21,7 +21,7 @@ GLuint loadTexture(const char * filename, bool useMipMap)
     Uint32 rmask, gmask, bmask, amask;
 
     //Make sure to be in the right place first
-    std::string data_path_str(GetDataPath());
+    std::string data_path_str(data_path);
     std::string concat_filename = data_path_str + std::string(filename);
 
     picture_surface = IMG_Load(concat_filename.c_str());
