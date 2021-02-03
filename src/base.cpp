@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <GL/freeglut.h>
-#include <SDL/SDL.h>
-#include <SDL/SDL_mixer.h>
-#include "SDL/SDL_mouse.h"
+#include <SDL2/SDL_main.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_mixer.h>
+#include "SDL2/SDL_mouse.h"
 #include "declarations.h"
 #include "Objects/objects.h"
 #include "Textures/initialize.h"
@@ -19,7 +20,6 @@
 #include "Character/character.h"
 using namespace std;
 
-
 //TODO: For resources allocated by the application, see if static textures are only loaded once or if its are loaded each time
 //int Mix_OpenAudio(int frequency, Uint16 format, int channels, int chunksize);
 
@@ -29,11 +29,7 @@ using namespace std;
  -lSDL_mixer
  -lSDL_image */
 
-//zip et cc fran�ois le floch
-//Thierry.SOBANSKI@ICL-LILLE.FR
 //Generer volume a partir de courbe de spleen
-
-
 
 int main(int argc, char **argv) {
 
@@ -51,11 +47,29 @@ int main(int argc, char **argv) {
 
 	SDL_Event event;
 
-	SDL_Init(SDL_INIT_VIDEO);
-	SDL_WM_SetCaption("OpenGL", NULL);
-	SDL_SetVideoMode(640, 480, 32, SDL_OPENGL);
+	if (SDL_Init(SDL_INIT_VIDEO|SDL_INIT_AUDIO) != 0) {
+        SDL_Log("Unable to initialize SDL: %s", SDL_GetError());
+        return 1;
+    }
 
-	SDL_EnableKeyRepeat(10,10);
+	SDL_Window *sdlWindow = SDL_CreateWindow("My Game Window",
+                          SDL_WINDOWPOS_CENTERED,
+                          SDL_WINDOWPOS_CENTERED,
+                          0, 0,
+                          SDL_WINDOW_FULLSCREEN_DESKTOP);
+
+	SDL_Renderer *sdlRenderer = SDL_CreateRenderer(sdlWindow, -1, 0);
+
+	SDL_CreateWindowAndRenderer(0, 0, SDL_WINDOW_FULLSCREEN_DESKTOP, &sdlWindow, &sdlRenderer);
+
+	SDL_SetRenderDrawColor(sdlRenderer, 0, 0, 0, 255);
+	SDL_RenderClear(sdlRenderer);
+	SDL_RenderPresent(sdlRenderer);
+
+	SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "linear");  // make the scaled rendering look smoother.
+	SDL_RenderSetLogicalSize(sdlRenderer, 640, 480);
+
+	// SDL_EnableKeyRepeat(10,10);
 
 	glEnable(GL_TEXTURE_2D);
 
@@ -149,8 +163,8 @@ int main(int argc, char **argv) {
 				       camera->OnMouseMotion(event.motion);
 				break;
 				case SDL_MOUSEBUTTONUP:
-				case SDL_MOUSEBUTTONDOWN:
-				       camera->OnMouseButton(event.button);
+				case SDL_MOUSEWHEEL:
+				       camera->OnMouseWheel(event.wheel);
 				break;
 		}
 
@@ -253,7 +267,7 @@ int main(int argc, char **argv) {
 //****************MAIN VIDEO GAME DRAWING END******************************************
 
 			glFlush();
-			SDL_GL_SwapBuffers();
+			SDL_GL_SwapWindow(sdlWindow);
 		}
 
 		return 0;

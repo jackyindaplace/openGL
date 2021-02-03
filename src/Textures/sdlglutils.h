@@ -2,7 +2,7 @@
 #define SDLGLUTILS_H
 
 #include <GL/gl.h>
-#include <SDL/SDL.h>
+#include <SDL2/SDL.h>
 #include <stdbool.h>
 
 #ifndef GL_CLAMP_TO_EDGE

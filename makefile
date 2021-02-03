@@ -15,4 +15,4 @@ build: copy-textures
 	 src/Objects/*.cpp\
 	 src/Scenario/Step-1-Flying-Saucer/*.cpp\
 	 src/Textures/*.cpp\
-	 -lmingw32 -lopengl32 -lglu32 -lglew32 -lfreeglut -lSDLmain -lSDL -lSDL_mixer -lSDL_image
+	 -lmingw32 -lopengl32 -lglu32 -lglew32 -lfreeglut -lSDL2 -lSDL2_mixer -lSDL2_image

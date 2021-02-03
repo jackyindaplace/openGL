@@ -6,7 +6,7 @@
  */
 
 #include <GL/freeglut.h>
-#include <SDL/SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #include "declarations.h"
 
 //#define xTaille 500;
