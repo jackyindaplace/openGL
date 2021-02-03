@@ -1,4 +1,5 @@
 #include "sdlglutils.h"
+#include "../declarations.h"
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <GL/glu.h>
@@ -7,6 +8,7 @@
 #include "string.h"
 #include "stdlib.h"
 #include <stdio.h>
+#include <string>
 
 SDL_Surface * flipSurface(SDL_Surface * surface);
 
@@ -18,7 +20,11 @@ GLuint loadTexture(const char * filename, bool useMipMap)
     SDL_Surface * gl_fliped_surface = NULL;
     Uint32 rmask, gmask, bmask, amask;
 
-    picture_surface = IMG_Load(filename);
+    //Make sure to be in the right place first
+    std::string data_path_str(GetDataPath());
+    std::string concat_filename = data_path_str + std::string(filename);
+
+    picture_surface = IMG_Load(concat_filename.c_str());
     if (picture_surface == NULL)
         return 0;
 
@@ -178,7 +184,7 @@ void drawAxis(double scale)
     glPopAttrib();
 }
 
-int initFullScreen(unsigned int * width,unsigned int * height)
+void initFullScreen(unsigned int * width,unsigned int * height)
 {
     SDL_Rect ** modes;
 

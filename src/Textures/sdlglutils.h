@@ -12,7 +12,7 @@
 GLuint loadTexture(const char * filename, bool useMipMap);
 int takeScreenshot(const char * filename);
 void drawAxis(double scale);
-int initFullScreen(unsigned int * width, unsigned int * height);
+void initFullScreen(unsigned int * width, unsigned int * height);
 int XPMFromImage(const char * imagefile, const char * XPMfile);
 SDL_Cursor * cursorFromXPM(const char * xpm[]);
 

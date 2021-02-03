@@ -1,3 +1,4 @@
+#define SDL_MAIN_HANDLED
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -44,30 +45,37 @@ int main(int argc, char **argv) {
 	Uint32 last_time = SDL_GetTicks();
 	Uint32 current_time, ellapsed_time;
 	FreeFlyCamera * camera;
-
 	SDL_Event event;
+
+	InitializeDataPath(NULL);
 
 	if (SDL_Init(SDL_INIT_VIDEO|SDL_INIT_AUDIO) != 0) {
         SDL_Log("Unable to initialize SDL: %s", SDL_GetError());
         return 1;
     }
 
+	//SDL_SetHint(SDL_HINT_RENDER_DRIVER, "opengl");
+
 	SDL_Window *sdlWindow = SDL_CreateWindow("My Game Window",
                           SDL_WINDOWPOS_CENTERED,
                           SDL_WINDOWPOS_CENTERED,
-                          0, 0,
-                          SDL_WINDOW_FULLSCREEN_DESKTOP);
+                          800, 600,
+                          SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
 
-	SDL_Renderer *sdlRenderer = SDL_CreateRenderer(sdlWindow, -1, 0);
+	// SDL_Renderer *sdlRenderer = SDL_CreateRenderer(sdlWindow, -1, 0);
 
-	SDL_CreateWindowAndRenderer(0, 0, SDL_WINDOW_FULLSCREEN_DESKTOP, &sdlWindow, &sdlRenderer);
+	// SDL_CreateWindowAndRenderer(0, 0, SDL_WINDOW_FULLSCREEN_DESKTOP, &sdlWindow, &sdlRenderer);
 
-	SDL_SetRenderDrawColor(sdlRenderer, 0, 0, 0, 255);
-	SDL_RenderClear(sdlRenderer);
-	SDL_RenderPresent(sdlRenderer);
+	// SDL_SetRenderDrawColor(sdlRenderer, 0, 0, 0, 255);
+	// SDL_RenderClear(sdlRenderer);
+	// SDL_RenderPresent(sdlRenderer);
 
-	SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "linear");  // make the scaled rendering look smoother.
-	SDL_RenderSetLogicalSize(sdlRenderer, 640, 480);
+	// SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "linear");  // make the scaled rendering look smoother.
+	// SDL_RenderSetLogicalSize(sdlRenderer, 640, 480);
+
+	SDL_GLContext glctx  = SDL_GL_CreateContext(sdlWindow);
+    glEnable(GL_DEBUG_OUTPUT);
+	SDL_GL_MakeCurrent(sdlWindow, glctx);
 
 	// SDL_EnableKeyRepeat(10,10);
 
@@ -342,4 +350,5 @@ void KeyfuncUp(unsigned char Key, int X, int Y) {
 void Menu(int Value) {
 	perspectiveChoice = Value;
 }
+
 

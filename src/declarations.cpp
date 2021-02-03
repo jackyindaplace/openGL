@@ -8,6 +8,7 @@
 #include <GL/freeglut.h>
 #include <SDL2/SDL_mixer.h>
 #include "declarations.h"
+#include <SDL2/SDL.h>
 
 //#define xTaille 500;
 //#define zTaille 500;
@@ -131,3 +132,18 @@
 //	void MouvementBonhomme(int X);
 //	void RotateBonhomme(void);
 
+
+void InitializeDataPath(char *data_path) {
+	char *base_path = SDL_GetBasePath();
+	if (base_path) {
+		data_path = base_path;
+	} else {
+		data_path = SDL_strdup("./");
+	}
+}
+
+char* GetDataPath() {
+	return data_path;
+}
+
+char *data_path = "";
