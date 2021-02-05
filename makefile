@@ -1,12 +1,15 @@
 INCLUDES = -I ./include
 LIBRARY_PATH = -L./lib
 
-all: build
+all: build-and-run
 
 copy-textures:
 	xcopy "src\Textures\textures" Release\textures /E/H/Y
 
-build-and-copy: copy-textures build
+copy-sounds:
+	xcopy "src\Sound" Release\sounds /E/H/Y
+
+build-and-copy: copy-textures copy-sounds build
 	
 build: 
 	g++ ${INCLUDES} ${LIBRARY_PATH} -o ./Release/game.exe src/*.cpp\
